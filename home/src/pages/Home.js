@@ -2,9 +2,12 @@ import React from 'react';
 import "../style/Home.css"
 import "../style/index.css"
 
+import { Link } from "react-router-dom"
+
 import jumboventures from "../assets/jumboventures.png"
 import tufts from "../assets/tufts.png"
 import dhs from "../assets/dhs.png"
+import grapevine from "../assets/grapevine.png"
 
 import image from "../assets/profile.jpg"
 import phillies from "../assets/phillies.jpg"
@@ -15,8 +18,6 @@ import cat from "../assets/cat.jpg"
 import code from "../assets/code.jpg"
 import piano from "../assets/piano.jpg"
 import pingpong from "../assets/pingpong.jpg"
-
-import grapevine from "../assets/grapevine.png"
 
 import js_meme from "../assets/js_meme.jpg"
 
@@ -37,6 +38,8 @@ const Home = () => {
 
             <p>Here’s a very brief rundown of my life. If you want to see me brag about my skills and exaggerate 
                 my accomplishments, checkout my <a target="_blank" href="https://www.linkedin.com/in/ben-skinner-profile/">LinkedIn profile</a>.</p>
+
+            <p>If you're interested in my coding abilites, please see <Link to="/code">here</Link></p>
 
            <div className="history-section">
 

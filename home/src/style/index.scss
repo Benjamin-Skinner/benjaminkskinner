@@ -262,3 +262,68 @@ body {
 .post-list-item {
     padding-bottom: 14px;
 }
+
+
+/* CODE PORTFOLIO */
+
+/* HISTORY */
+
+.portfolio-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.portfolio-text-container {
+    margin-left: 50px;
+}
+
+.portfolio-image-container {
+    padding: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.portfolio-image {
+    height: 250px;
+    width: auto;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 900px) {
+    .portfolio-row {
+        flex-direction: column-reverse;
+    }
+
+    // .portfolio-image-container {
+    //     padding: 0px;
+    // }
+
+    .portfolio-text-container {
+        margin-left: 0;
+    }
+
+    .portfolio-image {
+        //display: none;
+    }
+}
+
+.portfolio-section-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.portfolio-section-text {
+    margin-top: 0;
+}
+
+a > .portfolio-image-container {
+    
+    &:hover {
+        border: 0px;
+    }
+  
+}

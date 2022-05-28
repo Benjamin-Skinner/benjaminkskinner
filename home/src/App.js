@@ -13,6 +13,8 @@ import GetInTouch from "./pages/GetInTouch"
 import SomeThoughts from "./pages/SomeThoughts"
 import Home from "./pages/Home";
 import Post from "./pages/Post";
+import Code from "./pages/Code"
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -25,7 +27,12 @@ function App() {
                     </Route>
                     <Route path="/some-thoughts" element={ <SomeThoughts />}>
                     </Route>
-                    <Route path="posts/:id" element={<Post />}></Route>
+                    <Route path="posts/:id" element={<Post />}>
+                    </Route>
+                    <Route path="/code" element={ <Code />}>
+                    </Route>
+                    <Route path="/resume" element={ <Resume />}>
+                    </Route>
                     <Route path="/" element={ <Home />}>
                     </Route>
                 </Routes>

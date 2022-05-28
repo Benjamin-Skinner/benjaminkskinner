@@ -32,6 +32,12 @@ const Container = (props) => {
                         <li><NavLink 
                             className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
                             to="/some-thoughts">Some Thoughts</NavLink></li>
+                        <li><NavLink 
+                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
+                            to="/code">Code</NavLink></li>
+                        <li><NavLink 
+                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
+                            to="/resume">Resum{String.fromCharCode(233)}</NavLink></li>
                     </ul>
                     {/* <FaBars className="hamburger-menu" size={25} onClick={() => setMenuOpen(true)}/>  */}
 
@@ -56,7 +62,12 @@ const Container = (props) => {
                             className={({ isActive }) => (isActive ? "menu-text" : "menu-text")}  
                             to="/some-thoughts"
                             onClick={() => setMenuOpen(false)}>Some Thoughts</NavLink>
-                       
+                       <NavLink 
+                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
+                            to="/code">Code</NavLink>
+                        <NavLink 
+                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
+                            to="/resume">Resum{String.fromCharCode(233)}</NavLink>
                     </SideBar>
                 </div>
             </div>

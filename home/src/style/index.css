@@ -308,4 +308,71 @@ body {
 .post-list-item {
   padding-bottom: 14px;
 }
+
+/* CODE PORTFOLIO */
+/* HISTORY */
+.portfolio-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.portfolio-text-container {
+  margin-left: 50px;
+}
+
+.portfolio-image-container {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.portfolio-image {
+  height: 250px;
+  width: auto;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 900px) {
+  .portfolio-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .portfolio-text-container {
+    margin-left: 0;
+  }
+}
+
+.portfolio-section-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.portfolio-section-text {
+  margin-top: 0;
+}
+
+a > .portfolio-image-container:hover {
+  border: 0px;
+}
 /*# sourceMappingURL=index.css.map */
