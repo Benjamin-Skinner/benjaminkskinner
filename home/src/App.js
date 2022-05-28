@@ -12,6 +12,7 @@ import {
 import GetInTouch from "./pages/GetInTouch"
 import SomeThoughts from "./pages/SomeThoughts"
 import Home from "./pages/Home";
+import Post from "./pages/Post";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                     </Route>
                     <Route path="/some-thoughts" element={ <SomeThoughts />}>
                     </Route>
+                    <Route path="posts/:id" element={<Post />}></Route>
                     <Route path="/" element={ <Home />}>
                     </Route>
                 </Routes>
