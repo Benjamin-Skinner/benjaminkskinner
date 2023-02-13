@@ -11,13 +11,13 @@ import grapevine from "../assets/grapevine.png"
 
 import image from "../assets/profile.jpg"
 import phillies from "../assets/phillies.jpg"
-import chess from "../assets/chess.jpg"
 import lake from "../assets/lake.jpg"
 import cards from "../assets/cards.jpg"
 import cat from "../assets/cat.jpg"
 import code from "../assets/code.jpg"
 import piano from "../assets/piano.jpg"
-import pingpong from "../assets/pingpong.jpg"
+import cooking from "../assets/cooking.jpg"
+import mma from "../assets/mma.jpg"
 
 import js_meme from "../assets/js_meme.jpg"
 
@@ -74,7 +74,7 @@ const Home = () => {
                     <div className="history-text-container">
                         <h4>Tufts University</h4>
                         <p>I am a current member of the undergraduate class of 2024 at Tufts University majoring in computer 
-                            science and minoring in economics. This fall I'll be studying abroad in France!</p>
+                            science and minoring in economics. Last fall I studied abroad in Paris!</p>
                     </div>
                 </div>
 
@@ -166,7 +166,7 @@ const Home = () => {
                         <img src={phillies} className="image-row-image" alt="phillies"/>
                     </div>
                     <div className="image-gallery-row">
-                    <img src={chess} className="image-row-image" alt="chess"/>
+                    <img src={cooking} className="image-row-image" alt="cooking"/>
                     </div>
                     <div className="image-gallery-row">
                         <img src={cards} className="image-row-image" alt="card-fan" />
@@ -184,7 +184,7 @@ const Home = () => {
                         <img src={piano} className="image-row-image" alt="piano" />
                     </div>
                     <div className="image-gallery-row">
-                        <img src={pingpong} className="image-row-image" alt="pingpong" />
+                        <img src={mma} className="image-row-image" alt="mixed martial arts" />
                     </div>
                     <div className="image-gallery-row">
                         <img src={code} className="image-row-image" alt="cards" />

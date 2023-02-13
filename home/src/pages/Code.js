@@ -10,7 +10,8 @@ const Code = () => {
         <>
         <h4 className="page-title">Code Porfolio</h4>
 
-        <p style={{ marginBottom: "50px"}}>I love full-stack web and app development, mostly using JavaScript. I'm also good with Pyton, C++, and C. Here's a few things I've built:</p>
+        <p style={{ marginBottom: "50px"}}>I love full-stack web and app development, mostly using JavaScript. I also feel confident with Pyton, C++, and C.</p>
+        <p>Here's a few things I've built. I've also got about 3 years of CS course projects that I can't post publicly.</p>
 
     <div className="portfolio-section">
 
@@ -43,7 +44,7 @@ const Code = () => {
             <div className="portfolio-text-container">
                 <a href="https://ucsdgrapevine.com/" target="_blank"><h4 className="portfolio-section-title">UC San Diego GrapeVine</h4></a>
                 <p className="portfolio-section-text">The web app serves as an MVP and test ground for GrapeVine. It has seen over 20,000 users.
-                Uses MERN stack. (give it a mimute to load -- thanks Heroku)
+                Uses MERN stack. (give it a minute to load -- thanks Heroku)
                 </p>
             </div>
         </div>

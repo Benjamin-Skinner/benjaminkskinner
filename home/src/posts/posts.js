@@ -38,11 +38,9 @@ const posts = [
     },
     {
         title: "My Reading List",
-        content: `<p>Books I've read so far this year (2022):</p><ol>
-            <li>The Pilgrimage (Paulo Coehlo)</li>
-            <li>Saving Capitalism (Robert Reich)</li>
-            <li>Kitchen Confidential (Anthony Bourdain)</li>
-            <li>The Art of Communicating (Thich Nhat Hanh)</li>
+        content: `<p>Books I've read so far read this year (2023):</p><ol>
+            li>Getting Discomfortable (A.J. Bond)</li>
+            <li>Non-Violent Communication (Marshall Rosenberg)</li>
         </ol>`
     },
 
