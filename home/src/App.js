@@ -14,7 +14,6 @@ import SomeThoughts from "./pages/SomeThoughts"
 import Home from "./pages/Home";
 import Post from "./pages/Post";
 import Code from "./pages/Code"
-import Resume from "./pages/Resume";
 
 function App() {
   return (

@@ -6,8 +6,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin} from "react-icons/fa";
-import { FaYoutube} from "react-icons/fa";
-import { FaBars } from "react-icons/fa";
 
 import { stack as SideBar } from 'react-burger-menu'
 
