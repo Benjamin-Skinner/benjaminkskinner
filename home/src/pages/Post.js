@@ -6,13 +6,13 @@ const Post = () => {
 
     let { id } = useParams()
 
-    let content = posts[id - 1].content
-    let title = posts[id - 1].title
+    let post = posts.find((post) => post.number == id)
+
 
     return ( 
         <>
-            <h4 className="page-title">{title}</h4>
-            <div dangerouslySetInnerHTML={{__html: content}}></div>
+            <h4 className="page-title">{post.title}</h4>
+            <div dangerouslySetInnerHTML={{__html: post.content}}></div>
         </>
      );
 }

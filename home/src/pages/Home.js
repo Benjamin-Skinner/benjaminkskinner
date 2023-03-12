@@ -49,8 +49,11 @@ const Home = () => {
                 </div>
                 <div className="history-text-container">
                     <h4>GrapeVine</h4>
-                    <p>Since June of 2021, I've been co-founder of a startup to help people organize events with their friends more easily.
-                        We have an active <a href="https://ucsdgrapevine.com/" target="_blank">web app</a> at 3 University of California campuses and a <a href="https://apps.apple.com/us/app/grapevine-find-plan-events/id1598191762" target="_blank">mobile app</a> for iOS.</p>
+                    <p>In June of 2021, I co-founded a startup to help people organize events with their friends more easily.
+                        We built a web app which had over 60,000 pageviews and a mobile app for iOS. 
+                        We ended the project in March of 2023. To see my full reflection and learnings, 
+                        <a href="https://benjaminkskinner.com/posts/4" target="_blank" rel='noreferrer'> check out this article I wrote.</a>
+                    </p>            
                 </div>
             </div>
 
@@ -106,7 +109,7 @@ const Home = () => {
                             be clear on what your responsibilities are and make sure to live up to them.
                         </li>
                         <li>
-                            Have a good time. Remember to live in the present moment, remembering that every day or moment could be your last. Say yes to life.
+                            Have a good time. Live in the present moment, remembering that every day or moment could be your last. Say yes to life.
                         </li>
                         <li>
                             Have courage. Be willing to suffer and make sacrifices to be the person you want to be.

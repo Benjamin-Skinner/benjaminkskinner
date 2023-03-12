@@ -1,6 +1,7 @@
 
 const posts = [
     {
+        number: 1,
         title: "Where Exacly is Shawn Mendes in 'Lost in Japan'?",
         content: `<p>Shawn Mendes’ 2018 single Lost in Japan, appears at first glance to be a generic love song conceivably set anywhere in the world. 
         However upon closer examination, it becomes clear that the evidence provided in the song allows us to conclude exactly where in the 
@@ -37,14 +38,16 @@ const posts = [
         <p>Now, next time you listen to Shawn Mendes’ Lost in Japan, you’ll know exactly what’s going on. </p>`
     },
     {
+        number: 2,
         title: "My Reading List",
         content: `<p>Books I've read so far read this year (2023):</p><ol>
-            li>Getting Discomfortable (A.J. Bond)</li>
+            <li>Getting Discomfortable (A.J. Bond)</li>
             <li>Non-Violent Communication (Marshall Rosenberg)</li>
         </ol>`
     },
 
     {
+        number: 3,
         title: "Some History Trivia I wrote",
         content: `
         <p>Here are a few history trivia questions I made for a school event in Spring 2022. Answers below.<p>
@@ -71,7 +74,57 @@ const posts = [
         <p>1.Isabella of Castille — 2. Dalai Lama — 3. Nelson Mandela — 4. Borgia Family — 5. Dick Cheney
         <p>
         `
+    },
+    {
+        number: 4,
+        title: "GrapeVine Reflection",
+        content: `
+        <p>Last week, my co-founder Cedric Hughes and I decided to call it quits on our startup, GrapeVine, after 1 year and 8 months of hard work. I want to take a moment to reflect on the experience, as well as share a few thoughts and lessons.&nbsp;</p>
+<p>GrapeVine was an app to help people find, share, and create events with their friends. Coming out of the COVID lockdowns, we believed there was a huge market demand for such a product. We built a web app and a mobile app and launched both at UC San Diego.&nbsp;</p>
+<p>I&rsquo;ll start off with The Best Parts of the Experience:&nbsp;</p>
+<ol>
+<li>People actually used it! In total, the web MVP of our product had 19,258 users for a total of 62,748 pageviews. It&rsquo;s cool to know that code that I wrote actually made it in front of other people. We heard a few stories from users who attended events they wouldn&rsquo;t have otherwise been to. I&rsquo;d like to think that our work made some people&rsquo;s lives just a little bit better, and that&rsquo;s an amazing feeling.&nbsp;</li>
+<li>Working on this project was the most fun I&rsquo;ve ever had. Last summer, when Cedric and I worked full-time on GrapeVine, was easily the best 3 months of my life. Getting to play around with Figma, write code, and then see the app running on my phone has been an unparalleled experience.</li>
+<li>I now know what I want to do with my life. When we started GrapeVine, I was a freshman and a prospective poli sci major who had taught himself to write a few lines of React. Now, I&rsquo;ve long since declared my CS major and I spend my free time coding. I found my passion through GrapeVine and I learned that I want to spend every day of my life building cool stuff. I want to be creative, write code, and make things that add value to the world. I&rsquo;d say that a sense of purpose in life and discovering a genuine passion is a pretty good ROI!</li>
+<li>I met so many cool people. Cedric and I got feedback on our idea or product from as many people as we could get to listen. We spoke to random classmates who had seen the app and wanted to help out, Jumbo Ventures speakers, coaches, friends, software engineers, professors, and other entrepreneurs. Over the 20 months that we worked on this project, we spoke to at least 300 people about the idea. Cedric and I have had the amazing opportunity to hear the unique perspectives of more people than I could have imagined. Even though we are both young and inexperienced college students, every single one of these individuals respected us, took us seriously, and genuinely wanted to help. I realized how wonderful, deep, and supportive the entrepreneur community can be.&nbsp;</li>
+</ol>
+<p>The Most Important Things I Learned:</p>
+<ol>
+<li>Build something you want to see exist. I have a personal connection to GrapeVine&rsquo;s problem statement, and I still hope that someone is able to solve it. Cedric and I started off the project in June 2021 by saying: &ldquo;I want the problem of social event coordination to be solved. If we can solve it for just ourselves, it will all be worth it even if we make $0.&rdquo; This made GrapeVine fun to work on, gave us endless motivation, and made us both subject matter experts. Now I can&rsquo;t imagine working on something I didn&rsquo;t have that passion for.</li>
+<li>Have a good co-founder. I had the best co-founder imaginable, my best friend in the entire world. Cedric is truly one of the best people you will ever meet, and every moment spent with him is a joy. We have amazing communication, synergy, and teamwork. I think this dynamic was the single biggest asset that GrapeVine had, and I would never want to be on a team without great chemistry.</li>
+<li>Plan beforehand. Planning for 5 minutes can save an hour of coding. Ever tried adding one field to a database model after you&rsquo;re done? Or changing { &ldquo;location&rdquo;: string } into { &ldquo;location&rdquo;: { &ldquo;name&rdquo;: string, &ldquo;lat&rdquo;: Number, &ldquo;long&rdquo;: Number } }. It&rsquo;s annoying, and it takes the fun out of coding. Plan ahead.</li>
+<li>Be a little OCD about your code. Things like documentation, consistent styles, and reusable code felt like a waste of time when I was scrambling to build a new feature by the end of the week, but once the codebase swelled to almost a hundred different files I started to understand. I fell in love with TypeScript, ESLint, TSDoc, all of my config files, env variables, and my dev environment. I learned to take ownership and responsibility for the quality, cleanliness, and organization of my code, and that it&rsquo;s better to be too obsessive about my development process than not have one at all.&nbsp;</li>
+<li>Money is not a silver bullet. We spent a significant amount of time trying to get venture funding. However, I am convinced that this would not have helped our situation. No amount of money can make a flawed product good. Next time around I&rsquo;ll focus less on raising and more on building and distributing something that adds value to people&rsquo;s lives.&nbsp;</li>
+</ol>
+<p>What I think we did wrong</p>
+<ol>
+<li>Thinking too big, too soon. From day one, we built a product that was designed for 100 million users. We made a bunch of awesome features that I still think would be incredible for a platform with a large user base. But we left ourselves with a product that did not have a great value-add for the initial 10,000 users. We should have started small, taken over a segment of the marketplace, and then expanded. Aiming high is good, but we needed to plan the initial and intermediate stages of our growth as well.&nbsp;</li>
+<li>Not getting more user validation sooner. We knew the target audience enough to know that we were addressing a real problem. But most of our testing strategy was to &ldquo;build the app and see what happens.&rdquo; We put hundreds of hours into building our product and then had our hands tied by the inability to make large changes. By the time we saw the problems in the first version of the app, it was too late to fix them. We should have put more effort up front into validating and testing the idea, before building out the entire thing.&nbsp;</li>
+</ol>
+<p>We&rsquo;ll get &lsquo;em next time.</p>
+<p>Special Thanks To</p>
+<ul>
+<li>Jumbo Ventures</li>
+<li>Noah Bell</li>
+<li>Tom Yang + Max Levene</li>
+<li>My parents + Cedric&rsquo;s parents</li>
+<li>StackOverflow</li>
+</ul>
+<p>I&rsquo;ll end with a list of a few of my favorite random memories:</p>
+<ul>
+<li>Fending off cyber attacks from a UCSD frat (which made my cybersecurity skills WAY better)</li>
+<li>Interviewing + hiring a team of developers based all around the globe, including in Boston, San Diego, and Turkey</li>
+<li>Turning down an offer from an investor that we didn&rsquo;t think made sense for our company</li>
+<li>Hearing someone neither Cedric nor I had met before say they&rsquo;d heard of GrapeVine</li>
+<li>Looking up our legally-registered California S-Corp (&ldquo;Sckedio, Inc.&rdquo;) on sos.ca.gov&nbsp;</li>
+<li>Sending my friends in-app messages on GrapeVine</li>
+<li>Being named &ldquo;Most Promising Undergrad Startup&rdquo; in the Tufts Ideas Competition</li>
+<li>Sitting on the top floor of the Cummings Center, across from Cedric, drinking our iced lattes, looking out at the Boston skyline, and realizing that <em>this </em>is what I want my life to be like</li>
+<li>And most of all: seeing the app icon on my home screen for the first time!</li>
+</ul>
+<p>Overall, working on GrapeVine has been one of the best experiences of my life. Although the company &ldquo;failed,&rdquo; I couldn&rsquo;t be happier with all I&rsquo;ve learned and experienced. I&rsquo;m so grateful for everything and everyone that has allowed this opportunity to be possible. Thank you, everyone (especially Cedric), for an amazing ride. This is not the end. I&rsquo;d like to be a part of a startup for as long as I live, so now it&rsquo;s on to the next thing!&nbsp;</p>
+        `
     }
 ]
 
-export default posts
+export default posts.reverse()

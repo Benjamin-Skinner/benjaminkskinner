@@ -11,26 +11,28 @@ const Code = () => {
         <h4 className="page-title">Code Porfolio</h4>
 
         <p style={{ marginBottom: "50px"}}>I love full-stack web and app development, mostly using JavaScript. I also feel confident with Pyton, C++, and C.</p>
-        <p>Here's a few things I've built. I've also got about 3 years of CS course projects that I can't post publicly.</p>
+        <p>Here's a few things I've built. I've also got about 3 years of CS course projects that I can't post publicly. I have code samples in my 
+            private GitHub repo if you want to see it.
+        </p>
 
     <div className="portfolio-section">
 
         <div className="portfolio-row">
             <div className="portfolio-image-container">
-                <a href="https://benjaminkskinner.com" target="_blank"><img className="portfolio-image" src={portfolio} /></a>
+                <a href="https://benjaminkskinner.com" target="_blank" rel="noreferrer"><img alt="Screenshot of this site" className="portfolio-image" src={portfolio} /></a>
             </div>
             <div className="portfolio-text-container">
-                <a href="https://benjaminkskinner.com" target="_blank"><h4 className="portfolio-section-title">This Site</h4></a>
-                <p className="portfolio-section-text">This site is built from scratch using React.js with SASS, deployed using an express server.</p>
+                <h4 className="portfolio-section-title">This Site</h4>
+                <p className="portfolio-section-text">This site is built from scratch using React.js with SASS.</p>
             </div>
         </div>
 
         <div className="portfolio-row">
             <div className="portfolio-image-container">
-                <a href="https://apps.apple.com/us/app/grapevine-find-plan-events/id1598191762" target="_blank"><img className="portfolio-image" src={mobileApp} /></a>
+                <img className="portfolio-image" src={mobileApp} alt="mobile app"/>
             </div>
             <div className="portfolio-text-container">
-                <a href="https://apps.apple.com/us/app/grapevine-find-plan-events/id1598191762" target="_blank"><h4 className="portfolio-section-title">GrapeVine Mobile App</h4></a>
+                <h4 className="portfolio-section-title">GrapeVine Mobile App</h4>
                 <p className="portfolio-section-text">I built the app for my startup using React Native and Node.js with GraphQL. GrapeVine is a platform to
                     facilitate social events between friends.
                 </p>
@@ -39,24 +41,13 @@ const Code = () => {
 
         <div className="portfolio-row">
             <div className="portfolio-image-container">
-                <a href="https://ucsdgrapevine.com/" target="_blank"><img className="portfolio-image" src={grapevineSite} /></a>
+                <img className="portfolio-image" src={grapevineSite} alt="Screenshot of web app"/>
             </div>
             <div className="portfolio-text-container">
-                <a href="https://ucsdgrapevine.com/" target="_blank"><h4 className="portfolio-section-title">UC San Diego GrapeVine</h4></a>
-                <p className="portfolio-section-text">The web app serves as an MVP and test ground for GrapeVine. It has seen over 20,000 users.
-                Uses MERN stack. (give it a minute to load -- thanks Heroku)
+                <h4 className="portfolio-section-title">UC San Diego GrapeVine</h4>
+                <p className="portfolio-section-text">The web app served as an MVP and test ground for GrapeVine. It has seen over 20,000 users.
+                Uses MERN stack. We took down the app in March 2023 when GrapeVine was dissolved.
                 </p>
-            </div>
-        </div>
-
-        <div className="portfolio-row">
-            <div className="portfolio-image-container">
-                <a href="https://hardcore-einstein-f7ff47.netlify.app/" target="_blank"><img className="portfolio-image" src={diceRoller} /></a>
-            </div>
-            <div className="portfolio-text-container">
-                <a href="https://hardcore-einstein-f7ff47.netlify.app/" target="_blank"><h4 className="portfolio-section-title">JavaScript Die Roller</h4></a>
-                <p className="portfolio-section-text">You know when you're a new programmer just starting to move beyond 'Hello world' and
-                    into real projects? This is one of my first. It's vanilla JavaScript, simply here for old time's sake. </p>
             </div>
         </div>
 
