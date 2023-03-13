@@ -30,8 +30,6 @@ function App() {
                     </Route>
                     <Route path="/code" element={ <Code />}>
                     </Route>
-                    {/* <Route path="/resume" element={ <Resume />}>
-                    </Route> */}
                     <Route path="/" element={ <Home />}>
                     </Route>
                 </Routes>

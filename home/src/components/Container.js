@@ -8,6 +8,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin} from "react-icons/fa";
 
 import { stack as SideBar } from 'react-burger-menu'
+import Resume from '../assets/resume.pdf'
+
 
 const Container = (props) => {
 
@@ -21,23 +23,42 @@ const Container = (props) => {
                 <div className="header">
                     <h1 className="menu-title"><a href="/">Benjamin Skinner</a></h1>
                     <ul className="menu">
-                        <li><NavLink 
-                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")} 
-                            to="/">About Me</NavLink></li>
-                        <li><NavLink 
-                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}
-                            to="/get-in-touch">Get in Touch</NavLink></li>
-                        <li><NavLink 
-                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
-                            to="/some-thoughts">Some Thoughts</NavLink></li>
-                        <li><NavLink 
-                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
-                            to="/code">Code</NavLink></li>
-                        {/* <li><NavLink 
-                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
-                            to="/resume">Resum{String.fromCharCode(233)}</NavLink></li> */}
+                        <li>
+                            <NavLink 
+                                className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")} 
+                                to="/">
+                                    About Me
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}
+                                to="/get-in-touch">
+                                    Get in Touch
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
+                                to="/some-thoughts">
+                                    Some Thoughts
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
+                                to="/code">
+                                    Code
+                            </NavLink>
+                        </li>
+                        <li>
+                            <a 
+                                className="menu-text"  
+                                href={Resume} target="_blank" rel='noreferrer'>
+                                    Resum{String.fromCharCode(233)}
+                            </a>
+                        </li>
                     </ul>
-                    {/* <FaBars className="hamburger-menu" size={25} onClick={() => setMenuOpen(true)}/>  */}
 
                     <SideBar 
                         onOpen={() => setMenuOpen(true)}
@@ -45,9 +66,7 @@ const Container = (props) => {
                         isOpen={menuOpen}
                         right 
                         push
-                        //className="sidebar"
-                    >
-                        
+                    >                        
                         <NavLink 
                             className={({ isActive }) => (isActive ? "menu-text" : "menu-text")} 
                             to="/"
@@ -63,9 +82,6 @@ const Container = (props) => {
                        <NavLink 
                             className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
                             to="/code">Code</NavLink>
-                        {/* <NavLink 
-                            className={({ isActive }) => (isActive ? "menu-text-active" : "menu-text")}  
-                            to="/resume">Resum{String.fromCharCode(233)}</NavLink> */}
                     </SideBar>
                 </div>
             </div>
@@ -86,7 +102,6 @@ const Container = (props) => {
                     <a href="https://twitter.com/benjmin_skinner" target="_blank"><FaTwitter className="footer-link" color="white" size={50}/></a>
                     <a href="https://www.facebook.com/benjamin.k.skinner" target="_blank"><FaFacebook className="footer-link" color="white" size={50}/></a>
                     <a href="https://www.linkedin.com/in/ben-skinner-profile/" target="_blank"><FaLinkedin className="footer-link" color="white" size={50}/></a>
-                    {/* <a href="#"><FaYoutube className="footer-link" color="white" size={50}/></a> */}
                 </div>
             </div>
         </div>
