@@ -4,17 +4,14 @@ import { PostData } from '../../types'
 import { getPostData } from '../data/getPostData'
 
 
-interface Props {
-    posts: PostData[]
-}
+
 
 {/* @ts-expect-error Async Server Component */}
 const SomeThoughts: React.FC<Props> = async  ({
+    
 }) => {
 
     const posts: PostData[] = await getPostData()
-
-    console.log(posts)
 
     return (
         <div>

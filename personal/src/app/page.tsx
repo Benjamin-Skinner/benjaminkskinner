@@ -163,7 +163,7 @@ export default function Home() {
             </div>
             <div className="mb-6">
                 <p className='font-bold'>Who&apos;s GOAT?</p>
-                <p>Khabib Nurmogomedov.</p>
+                <p>Khabib Nurmogomedov</p>
             </div>
             <div className="mb-6">
                 <p className='font-bold'>Favorite director?</p>

@@ -12,7 +12,7 @@ export async function generateStaticParams() {
    
     return posts.map((post) => ({
       slug: post.slug,
-    }));
+    }))
   }
 
 {/* @ts-expect-error Async Server Component */}

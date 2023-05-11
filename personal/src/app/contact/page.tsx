@@ -14,7 +14,7 @@ const Contact: React.FC<Props> = ({
             </p><br />
             <p>
                 I welcome any emails and I will respond as soon as I can.
-                I'm always down to collab on a project, build something, join your startup, talk about baseball, or just 
+                I&apos;m always down to collab on a project, build something, join your startup, talk about baseball, or just 
                 get to know each other.
             </p><br />
             <p>

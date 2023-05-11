@@ -12,6 +12,7 @@ export async function getPostData() {
 
     postsNames.forEach((post) => {
         const file = fs.readFileSync(`src/content/posts/${post}`, 'utf-8')
+        //@ts-ignore
         const postData: Post = matter(file)
         postsData.push(postData.data)
     })
@@ -27,6 +28,7 @@ export async function getPostData() {
 
 export async function getPost(slug: string): Promise<Post> {
     const file = fs.readFileSync(`src/content/posts/${slug}.md`, 'utf-8')
+     //@ts-ignore
     const postData: Post = matter(file)
 
     return postData

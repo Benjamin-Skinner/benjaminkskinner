@@ -42,7 +42,7 @@ const Schedule: React.FC = () => {
                 <tr>
                     <td>2 – 6</td>
                     <td>Work more</td>
-                    <td>Hopefully more coding (and I'll be watching baseball in the background)</td>
+                    <td>Hopefully more coding (and I&apos;ll be watching baseball in the background)</td>
                 </tr>
                 <tr>
                     <td>6 – 7:30</td>
@@ -84,7 +84,7 @@ const Schedule: React.FC = () => {
                     <td>11 pm</td>
                     <td>Sleep</td>
                     <td>I sleep early. I feel weak, depressed, and 
-                        boring when I'm sleep deprived, so I make it
+                        boring when I&apos;m sleep deprived, so I make it
                         a priority to get enough sleep.
                     </td>
                 </tr>
