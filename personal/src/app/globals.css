@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply dark:bg-gray-950 bg-[#e5e5e5]
+}
+
+@layer components {
+    .link {
+        @apply text-[#026ed2] font-bold dark:text-[#FF0080];
+    }
+
+    .blog-text {
+        @apply px-10 pb-8
+    }
+
+    .blog-ol {
+        @apply pb-8
+    }
+
+    .blog-ul {
+        @apply pb-8
+    }
+
+    .blog-hr {
+        @apply h-1 my-20
+    }
+
+}
+
+@layer base {
+    h1 {
+        @apply text-4xl text-slate-600 dark:text-slate-200 font-thin p-16 border-b-2 border-slate-200 mb-12;
+    }
+
+    h2 {
+        @apply text-4xl text-black dark:text-slate-200 py-6;
+    }
+
+    h3 {
+        @apply text-3xl text-slate-700 dark:text-slate-200 font-thin py-6;
+    }
+
+    p {
+        @apply text-slate-600 dark:text-slate-200 font-thin text-lg leading-10
+
+    }
+
+    ol {
+        @apply list-decimal list-outside md:px-10;
+    }
+
+    ul {
+        @apply list-outside md:px-16;
+        list-style-type: square;
+    }
+
+    li {
+        @apply text-slate-600 dark:text-slate-200 font-thin text-lg leading-10
+    }
+
+    section {
+        @apply px-16 py-10;
+    }
+
+    blockquote {
+        @apply border-l-4 px-4 md:px-6 md:mx-3 lg:px-12 lg:mx-8 border-slate-200 italic text-2xl font-thin m-auto mt-8 leading-10 text-slate-600 dark:text-slate-200;
+    }
+
+    th {
+        @apply border border-slate-300 px-3 py-2 text-center
+    }
+
+    td {
+        @apply border border-slate-300 px-3 py-2 text-center
+    }
+}

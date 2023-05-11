@@ -15,7 +15,16 @@ import Home from "./pages/Home";
 import Post from "./pages/Post";
 import Code from "./pages/Code"
 
+import getPostsData from "./posts/postsData";
+
+
+
 function App() {
+
+    getPostsData()
+
+    
+
   return (
    
       
