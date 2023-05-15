@@ -13,7 +13,7 @@ body {
     }
 
     .blog-text {
-        @apply px-10 pb-8
+        @apply pb-8
     }
 
     .blog-ol {

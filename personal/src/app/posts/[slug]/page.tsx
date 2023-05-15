@@ -23,8 +23,10 @@ const PostPage: React.FC<Props> = async ({
     const post: Post = await getPost(params.slug)
 
     return (
+        
         <div>
             <h1>{post.data.title}</h1>
+            <div className="px-10">
             <ReactMarkdown
                 components={{
                      p: (props) => <p className='blog-text' {...props} />,
@@ -35,6 +37,7 @@ const PostPage: React.FC<Props> = async ({
             >
                 {post.content}
             </ReactMarkdown>
+                </div>
         </div>
     )
 }
