@@ -1,0 +1,1 @@
+module.exports.HACKERNEWS_BASEURI = "https://hacker-news.firebaseio.com/v0"

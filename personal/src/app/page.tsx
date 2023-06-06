@@ -15,9 +15,9 @@ export default function Home() {
     <div>
         <section>
             <blockquote>
-                Hi, I&apos;m Ben Skinner. I love learning, travelling, and
-                building things. My greatest passion is seeking out
-                new and exciting experiences.
+                Hi, I&apos;m Ben Skinner, and I love to build things with code!
+                My greatest interest is finding ways to make myself a better person, 
+                primarily through the use of meditation and philosophy.
             </blockquote>
         </section>
         <div className="w-full flex justify-center">

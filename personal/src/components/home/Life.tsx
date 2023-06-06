@@ -6,6 +6,18 @@ import JumboVentures from '@assets/my-life/jv.png'
 import DHS from '@assets/my-life/dhs.png'
 import Tufts from '@assets/my-life/tufts.png'
 
+/*
+
+- DHS
+- Sckedio
+- Tufts
+- Jumbo Ventures
+- GrapeVine
+- Magician Society
+- Mixed Martial Arts
+
+*/
+
 const Life: React.FC = () => {
     return (
         <div>
