@@ -2,6 +2,7 @@
 title: My Reading List
 slug: reading-list
 date: 2023-01
+status: public
 ---
 
 I enjoy reading books, and it occurred to me to start keeping a record of what I read each year so that I can track what kind of content is influencing my intellectual development over the years. I read the majority of my books during the summer and around New Years, when I'm not in school.
@@ -17,6 +18,8 @@ required readings for school). I've retroactively reconstructed the list in 2023
 4. How to Think Like a Roman Emperor: The Stoic Philosophy of Marcus Aurelius (Donald J. Robertson)
 5. I Hear You (Michael Sorensen)
 6. The Quest for Character (Massimo Pigliucci)
+7. Rome's Last Citizen (Rob Goodman and Jimmy Soni)
+8. Meditations (Marcus Aurelius)
 
 ## 2022
 
@@ -24,8 +27,9 @@ required readings for school). I've retroactively reconstructed the list in 2023
 2. Becoming Bulletproof (Evy Poumpouras)
 3. The Book (Alan Watts)
 4. Papa Hemingway (A.E Hotchner)
-5. The Fountainhead (Ayn Rand)
-6. Permanent Record (Edward Snowden)
+5. Kitchen Confidential (Anthony Bourdain)
+6. The Fountainhead (Ayn Rand)
+7. Permanent Record (Edward Snowden)
 
 ## 2021
 
@@ -35,7 +39,7 @@ required readings for school). I've retroactively reconstructed the list in 2023
 4. Extreme Ownership (Jocko Willik & Leif Babin)
 5. The Practicing Stoic (Ward Farnsworth)
 6. The Elephant in the Brain (Kevin Simler & Robin Hanson)
-7. If I Understood Youm Would I Have This Look on My Fac? (Alan Alda)
+7. If I Understood You Would I Have This Look on My Face? (Alan Alda)
 8. The Chalice and the Blade (Riane Eisler)
 9. Black Flags, Blue Waters (Eric Jay Donlin)
 10. The Poet X (Elizabeth Acevedo)

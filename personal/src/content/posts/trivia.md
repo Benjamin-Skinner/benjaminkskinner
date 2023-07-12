@@ -2,8 +2,8 @@
 title: Some History Trivia I wrote
 slug: trivia
 date: 2021-10
+status: public
 ---
-
 
 Here are a few history trivia questions I made for a school event. Answers below.
 
@@ -27,8 +27,10 @@ Here are a few history trivia questions I made for a school event. Answers below
 
 10. The first battle of this conflict occurred at Jintian, and it went on to become the second bloodiest civil war in history, causing more than 20 million deaths. It began with persecutions of the God Worshiping Society and was led by Hong Xiuquan who claimed to be the younger brother of Jesus Christ. General Tso, the namesake of the popular dish, rose to prominence as a general during this conflict. Charles Gordon and Frederick Townsend Ward were also both military leaders during this conflict. Name this 14-year conflict in China that occurred during the 19th century.
 
------
------
------
+---
+
+---
+
+---
 
 1.Isabella of Castille — 2. Dalai Lama — 3. Nelson Mandela — 4. Borgia Family — 5. Dick Cheney — 6. Genoa — 7. camels — 8. Polio vaccine — 9. Bahrain — 10. Taiping Rebellion

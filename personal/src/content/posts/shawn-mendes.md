@@ -2,6 +2,7 @@
 title: Where Exactly is Shawn Mendes in 'Lost in Japan'?
 slug: shawn-mendes
 date: 2020-07
+status: public
 ---
 
 Shawn Mendes’ 2018 single Lost in Japan, appears at first glance to be a generic love song conceivably set anywhere in the world. However upon closer examination, it becomes clear that the evidence provided in the song allows us to conclude exactly where in the world Mendes sings from, down to the specific city. Let’s examine the lyrics.

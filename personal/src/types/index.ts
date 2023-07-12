@@ -1,25 +1,23 @@
-
 /* Posts */
 export type PostData = {
-    title: string,
-    slug: string, 
-    date: string
+	title: string
+	slug: string
+	date: string
+	status: 'public' | 'draft'
 }
 
 export type Post = {
-    data: PostData,
-    content: string
+	data: PostData
+	content: string
 }
 
 /* News Stories */
 
 export type NewsStory = {
-    id: number,
-    title: string,
-    url: string,
-    time: number,
-    score: number,
-    source: string
+	id: number
+	title: string
+	url: string
+	time: number
+	score: number
+	source: string
 }
-
-
