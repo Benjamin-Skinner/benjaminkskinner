@@ -3,6 +3,7 @@ import NewsList from './NewList'
 import Story from './story'
 import { getInitialStories } from '@/services/hn'
 
+export const revalidate = 180
 // @ts-expect-error Async Server Component */
 
 const News: React.FC<Props> = async () => {
@@ -10,7 +11,6 @@ const News: React.FC<Props> = async () => {
 
 	return (
 		<div>
-			<h1>My News Feed</h1>
 			<div className="flex flex-col mt-6">
 				<NewsList initialItems={stories} />
 			</div>

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getMoreStories } from '../../../services/hn'
+import { getMoreStories } from '../../../../services/hn'
 
 export async function GET(req: Request, res: Response) {
 	const { searchParams } = new URL(req.url)

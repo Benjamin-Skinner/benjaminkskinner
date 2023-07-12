@@ -15,11 +15,14 @@ const NewsList: React.FC<Props> = ({ initialItems }) => {
 	const fetchMore = async () => {
 		console.log('fetching more')
 		const res: Response = await fetch(
-			`/api/hn-stories?index=${items.length + 2}`,
+			`/api/hn-stories/more?index=${items.length + 2}`,
 			{
 				method: 'GET',
 				headers: {
 					'Content-Type': 'application/json',
+				},
+				next: {
+					revalidate: 60 * 3,
 				},
 			}
 		)
