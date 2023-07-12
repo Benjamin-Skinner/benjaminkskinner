@@ -5,7 +5,7 @@ import { getInitialStories } from '@/services/hn'
 
 // @ts-expect-error Async Server Component */
 
-const News: React.FC<Promise<Element>> = async () => {
+const News: React.FC<Props> = async () => {
 	const stories = await getInitialStories()
 
 	return (
