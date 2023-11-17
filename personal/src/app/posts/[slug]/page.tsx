@@ -2,6 +2,7 @@ import React from 'react'
 import { Post, PostData } from '../../../types'
 import { getPostData, getPost } from './getPostData'
 import ReactMarkdown from 'react-markdown'
+import { redirect } from 'next/navigation'
 
 interface Props {
 	params: PostData
@@ -19,9 +20,13 @@ export async function generateStaticParams() {
 const PostPage: React.FC<Props> = async ({ params }) => {
 	const post: Post = await getPost(params.slug)
 
+	if (post.data.redirect) {
+		return redirect(post.data.redirect)
+	}
+
 	return (
 		<div>
-			<h1>{post.data.title}</h1>
+			<ArticleHeading post={post} />
 			<div className="px-10">
 				<ReactMarkdown
 					components={{
@@ -39,3 +44,23 @@ const PostPage: React.FC<Props> = async ({ params }) => {
 }
 
 export default PostPage
+
+interface ArticleHeadingProps {
+	post: Post
+}
+
+const ArticleHeading: React.FC<ArticleHeadingProps> = ({ post }) => {
+	const formattedDate = new Date(
+		parseInt(post.data.date.split('-')[0]),
+		parseInt(post.data.date.split('-')[1]) - 1
+	).toLocaleString('en-US', { year: 'numeric', month: 'long' })
+
+	return (
+		<div className="p-10 border-b-2 border-slate-200 mb-12 mx-8">
+			<h2 className="pb-4">{post.data.title}</h2>
+			<p className="text-gray-400 dark:text-gray-400 text-sm italic">
+				{formattedDate}
+			</p>
+		</div>
+	)
+}

@@ -7,12 +7,20 @@ export async function getPostData() {
 
 	const postsNames = fs.readdirSync('src/content/posts/')
 
+	// Remove all private posts
 	postsNames.forEach((post) => {
 		const file = fs.readFileSync(`src/content/posts/${post}`, 'utf-8')
 		//@ts-ignore
 		const postData: Post = matter(file)
 		if (postData.data.status === 'public') {
 			postsData.push(postData.data)
+		}
+	})
+
+	// If date === 'current', set the date to now
+	postsData.forEach((post) => {
+		if (post.date === 'current') {
+			post.date = new Date().toISOString()
 		}
 	})
 

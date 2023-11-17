@@ -4,6 +4,7 @@ export type PostData = {
 	slug: string
 	date: string
 	status: 'public' | 'draft'
+	redirect?: string
 }
 
 export type Post = {

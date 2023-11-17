@@ -33,14 +33,14 @@ const Life: React.FC = () => {
 					className="self-center m-auto lg:mr-auto rounded-3xl object-cover h-[200px] w-[200px]"
 				/>
 				<div>
-					<h3>Starting Martial Arts</h3>
+					<h3>Starting Muay Thai and BJJ</h3>
 					<p className="text-gray-400">2023</p>
 					<p>
 						In Paris, I met a guy at the gym who was an MMA fighter.
 						We sparred a little bit, and when I got back to school
 						the first thing I did was to sign up for Jiu Jitsu and
-						Muay Thai classes. I&apos;m now approaching 6 months of
-						experience and I totally love it.
+						Muay Thai classes. I&apos;m now approaching 11 months of
+						experience.
 					</p>
 				</div>
 			</div>

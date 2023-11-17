@@ -14,7 +14,7 @@ export default function Home() {
 			<section>
 				<blockquote>
 					Hi, I&apos;m Ben Skinner. My greatest interests are finding
-					ways to make myself a better person, and using code to build
+					ways to make myself a better person and using code to build
 					things that I think are cool.
 				</blockquote>
 			</section>
@@ -182,13 +182,23 @@ export default function Home() {
 							Styling in React Native
 						</a>
 					</li>
+					<li>
+						<a
+							className="link"
+							href="https://writings.stephenwolfram.com/2023/07/generative-ai-space-and-the-mental-imagery-of-alien-minds/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							AI Images and Aliens
+						</a>
+					</li>
 				</ul>
 			</section>
 
 			<section>
 				<h2>Top 3 Books</h2>
 				<p>
-					Here are three of my favorite books. They all play a
+					These are my three favorite books. They all play a
 					significant role in how I view the world.{' '}
 					<Link href="/posts/reading-list" className="link">
 						Here&apos;s a list of of all the books I&apos;ve read
@@ -201,21 +211,21 @@ export default function Home() {
 						alt="Power of Now, by Eckhart Tolle"
 						width={200}
 						height={200}
-						className="m-auto pb-3"
+						className="m-auto mb-3 border-2 border-black rounded-sm"
 					/>
 					<Image
 						src={PowerOfNow}
 						alt="Power of Now, by Eckhart Tolle"
 						width={200}
 						height={200}
-						className="m-auto pb-3"
+						className="m-auto mb-3 border-2 border-black rounded-sm"
 					/>
 					<Image
 						src={Fountainhead}
 						alt="Power of Now, by Eckhart Tolle"
 						width={200}
 						height={200}
-						className="m-auto pb-3"
+						className="m-auto mb-3 border-2 border-black rounded-sm"
 					/>
 				</div>
 			</section>
@@ -235,47 +245,47 @@ export default function Home() {
 			<section>
 				<h2>Two-word Q & A</h2>
 				<div className="mb-6">
-					<p className="font-bold">Worst fear?</p>
+					<p className="text-xl font-bold">Worst fear?</p>
 					<p>Living forever</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Role model?</p>
+					<h4>Role model?</h4>
 					<p>Marcus Aurelius</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Pitch clock?</p>
+					<h4>Pitch clock?</h4>
 					<p>It&apos;s alright</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Starbucks order?</p>
+					<h4>Starbucks order?</h4>
 					<p>Chai Latte</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Favorite dessert?</p>
+					<h4>Favorite dessert?</h4>
 					<p>Carrot cake</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Who&apos;s GOAT?</p>
+					<h4>Who&apos;s GOAT?</h4>
 					<p>Khabib Nurmogomedov</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Favorite director?</p>
+					<h4>Favorite director?</h4>
 					<p>Christopher Nolan</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Political beliefs?</p>
+					<h4 className="font-bold italic">Political beliefs?</h4>
 					<p>It&apos;s complicated</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Alternate-timeline career?</p>
+					<h4>Alternate-timeline career?</h4>
 					<p>MMA Fighter</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Favorite team?</p>
+					<h4>Favorite team?</h4>
 					<p>Philadelphia Phillies</p>
 				</div>
 				<div className="mb-6">
-					<p className="font-bold">Skip leg-day?</p>
+					<h4>Skip leg-day?</h4>
 					<p>Not ever.</p>
 				</div>
 			</section>
@@ -296,7 +306,7 @@ export default function Home() {
 				<ol>
 					<li>Walking through the city at night</li>
 					<li>Coding something I&apos;m passionate about</li>
-					<li>Submitting someone in a Jiu Jitsu match</li>
+					<li>Submitting someone in Jiu Jitsu</li>
 				</ol>
 			</section>
 

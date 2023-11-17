@@ -1,7 +1,7 @@
 ---
 title: My Reading List
 slug: reading-list
-date: 2023-01
+date: 2023-08
 status: public
 ---
 
@@ -20,6 +20,8 @@ required readings for school). I've retroactively reconstructed the list in 2023
 6. The Quest for Character (Massimo Pigliucci)
 7. Rome's Last Citizen (Rob Goodman and Jimmy Soni)
 8. Meditations (Marcus Aurelius)
+9. Think, Talk, Create (David Brendel and Ryan Stelzer)
+10. The Right It (Alberto Savoia)
 
 ## 2022
 

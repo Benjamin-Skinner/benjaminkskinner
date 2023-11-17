@@ -2,6 +2,7 @@
 title: Some Lessons I've Learned From Books
 slug: book-lessons
 date: 2023-06
+status: private
 ---
 
 ### Kitchen Confidential
