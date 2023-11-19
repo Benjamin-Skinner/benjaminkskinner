@@ -72,7 +72,6 @@ I must update this list frequently. I must practice it rigorously. There is noth
     -   "Come on bro, you'll be dead soon, just do it"
     -   "You're better than this, man"
     -   "Find it within yourself"
-    -   "Fuck it, we ball"
     -   "The universe is change, life is perception"
     -   "Man suffers only because he takes seriously what the gods made for fun"
 -   Use the power of words to your advantage. Remember quotes you hear that help point your mind towards truth.
