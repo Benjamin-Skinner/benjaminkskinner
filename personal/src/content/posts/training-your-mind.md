@@ -42,20 +42,20 @@ I must update this list frequently. I must practice it rigorously. There is noth
 
 ### Hard Physical Exercise
 
--   Make yourself suffer, and prove that you can overcome it. Lift weights, run sprints, do a sport, whatever may be appeaeling to you at this point in your life. Just make sure it it hard and it makes you suffer.
--   Learn to watch the pain and still do the action. You're doing pushups? It hurts? That's okay. You know there is something greater within you than this voice. You've felt it before. You know this.
+-   Make yourself suffer, and prove that you can overcome it. Lift weights, run sprints, do a sport, whatever may be appealing to you at this point in your life. Just make sure it it hard and it makes you suffer.
+-   Learn to watch the pain and still do the action. You're doing pushups? It hurts? That's okay. You know there is something greater within you than this voice that tells you to quit. You've felt it before. You know this.
 -   When you're doing something else, ask "is this really worse than the physical suffering I put myself through each week"
 -   Learn to conquer the pain. You still have a choice even when you are in pain. Train yourself to never forget this. Pain is a feeling, not a commandment to stop. Respect your body for sure, but conquer the pain. When pain can no longer stop you, you are well on your way to conquering the fear of death, the fear of God, the fear of eternal suffering.
 
 ### Doing What I Fear
 
--   Your mind will tell you not to do it. Rememeber again: _You have a choice!_ This simple realization gives you all you need to overcome. Yes, you feel fear. It's okay. Do it anyways.
+-   Your mind will tell you not to do it. Remember again: _You have a choice!_ This simple realization gives you all you need to overcome. Yes, you feel fear. It's okay. Do it anyways.
 -   When you feel afraid of something, do it. Fear is a sufficient warrant to take action. In doing so, you are sculpting your mind and your soul. What could be more holy than this?
--   Make it a habit: When you feel fear, acknowledge it. Then do the thing youy are afraid of without hesitation. Do not wait, do not bargain, convince, make excuses, or delay. Just do it, and do it now. Soon you'll be done, and you'll have acheived the greatest victory: to assert control over the instincts which sabotage you. "But I'm afraid, how do I do it?" By doing it. You do have a choice. You'll be dead soon. Death waits. You have no choice over that. But you do have a choice over your actions. Do not let your mind convince you otherwise.
+-   Make it a habit: When you feel fear, acknowledge it. Then do the thing you are afraid of without hesitation. Do not wait, do not bargain, convince, make excuses, or delay. Just do it, and do it now. Soon you'll be done, and you'll have acheived the greatest victory: to assert control over the instincts which sabotage you. "But I'm afraid, how do I do it?" By doing it. You do have a choice. You'll be dead soon. Death waits. You have no choice over that. But you do have a choice over your actions. Do not let your mind convince you otherwise.
 -   Do not hesitate. It must happen now. Does death always come with a warning? You must always be ready.
 -   If you fail to gather the courage to do it, respond accordingly:
     1. Forgive yourself. It will happen
-    2. Remind yourself: You failed for one reason and one reason alone. You didn't have the courage to do it. The moment wasn't right. She left before I could talk to her. I was waiting until the song ended. I didn't want to get hurt. It didn't go the way I planned. Nope! You didn't make it happen. The opportunity is never right. But your mind wasn't either.
+    2. Remind yourself: You failed for one reason and one reason alone. You didn't have the courage to do it. _The moment wasn't right. She left before I could talk to her. I was waiting until the song ended. I didn't want to get hurt. It didn't go the way I planned._ Nope! You didn't make it happen. The opportunity is never right. But your mind wasn't either.
     3. Forget it, and be better next time. Once you take total responsibility for the failure, move on.
 -   Every day you will have at least one opportunity to do something scary. You don't see it? Your mind has shackled and blinded you. Realistically, there's at least 5 opportunities in a day to do something you fear. To find them just ask: If I were going to die in one week, what would I do differently right now? Then do it. You can't because you're not actually dying? Yes you are. Just more slowly. Go do it.
 
@@ -68,14 +68,14 @@ I must update this list frequently. I must practice it rigorously. There is noth
     -   "Am I taking care of myself?"
     -   "What am I doing?"
 -   Tell
-    -   "If this is death... (you know the rest)"
+    -   "If this is death..."
     -   "Come on bro, you'll be dead soon, just do it"
     -   "You're better than this, man"
     -   "Find it within yourself"
     -   "The universe is change, life is perception"
     -   "Man suffers only because he takes seriously what the gods made for fun"
 -   Use the power of words to your advantage. Remember quotes you hear that help point your mind towards truth.
--   Write poetry, commit it to memory, and use it as a mantra. Never forget this one. Remember all you have gained from this practice, and remember the words you will say as life exits your body.
+-   Write poetry, commit it to memory, and use it as a mantra. Remember all you have gained from this practice, and remember the words you will say as life exits your body.
 
 ### Reflecting
 
@@ -89,7 +89,7 @@ I must update this list frequently. I must practice it rigorously. There is noth
     -   If every day were like today, would I be okay with that? If not, what needs to change?
     -   Did I uphold my values today?
     -   How am I better right now than I was 24 hours ago?
-    -   What am I grateful for
+    -   What am I grateful for?
 -   When you neglect to this this, treat the day as wasted.
 
 ### Conclusion

@@ -2,7 +2,7 @@
 title: My Favorite Places in Boston
 slug: boston-favs
 date: 2023-07
-status: public
+status: private
 ---
 
 2020 — present

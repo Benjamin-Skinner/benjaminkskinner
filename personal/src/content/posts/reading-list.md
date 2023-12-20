@@ -5,11 +5,6 @@ date: 2023-08
 status: public
 ---
 
-I enjoy reading books, and it occurred to me to start keeping a record of what I read each year so that I can track what kind of content is influencing my intellectual development over the years. I read the majority of my books during the summer and around New Years, when I'm not in school.
-
-On this list, I only include books I read for personal reasons (meaning I don't include any
-required readings for school). I've retroactively reconstructed the list in 2023, so I'm sure I'm missing a few from earlier years.
-
 ## 2023 (so far)
 
 1. Discomfortable (A.J. Bond)
@@ -22,6 +17,9 @@ required readings for school). I've retroactively reconstructed the list in 2023
 8. Meditations (Marcus Aurelius)
 9. Think, Talk, Create (David Brendel and Ryan Stelzer)
 10. The Right It (Alberto Savoia)
+11. all about love (bell hooks)
+12. This Side of Paradise (Scott Fitzgerald)
+13. A Moveable Feast (Ernest Hemingway)
 
 ## 2022
 
@@ -53,5 +51,4 @@ required readings for school). I've retroactively reconstructed the list in 2023
 3. The Power of Now (Eckart Tolle)
 4. A New Earth (Eckart Tolle)
 5. How to be an Anti-Racist (Ibram X. Kendi)
-6. Food of the Gods (Terence McKenna)
-7. Astrophysics for People in a Hurry (Neil Degrasse Tyson)
+6. Astrophysics for People in a Hurry (Neil Degrasse Tyson)
