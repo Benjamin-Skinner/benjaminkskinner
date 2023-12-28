@@ -27,7 +27,7 @@ export default function Home() {
 					className="rounded-full h-[500px] w-[500px] object-cover margin-auto mt-16"
 				/>
 			</div>
-			<section>
+			{/* <section>
 				<h2>Brief Timeline of My Life</h2>
 				<p>
 					Here&apos;s a brief rundown of some of the things I&apos;m
@@ -42,7 +42,7 @@ export default function Home() {
 					</a>
 				</p>
 				<Life />
-			</section>
+			</section> */}
 
 			<section>
 				<h2>My Life Principles</h2>
@@ -273,7 +273,7 @@ export default function Home() {
 					<p>Christopher Nolan</p>
 				</div>
 				<div className="mb-6">
-					<h4 className="font-bold italic">Political beliefs?</h4>
+					<h4 className="">Political beliefs?</h4>
 					<p>It&apos;s complicated</p>
 				</div>
 				<div className="mb-6">
