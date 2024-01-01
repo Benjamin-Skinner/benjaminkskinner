@@ -116,7 +116,7 @@ const Page: React.FC<Props> = ({}) => {
 					title="Paris, afternoon, 1920"
 					image={Image5}
 					url="https://cdn.discordapp.com/attachments/989274745495240734/1191091959700398121/benjaminskinner_Watercolor_of_Romantic_park_in_1920s_Paris._Imp_ff575f10-92b0-44fb-a7cd-b6252c959499.png?ex=65a42dd4&is=6591b8d4&hm=f4556facbac777fbeb78ae633c45fe70f8493a00bdf1066f9018cdb3b444f914&"
-					description="The second section of the exhibit demonstrates human-made artork, beginning with the unrivaled urban beauty of the French capital."
+					description="The second section of the exhibit demonstrates human-made artwork, beginning with the unrivaled urban beauty of the French capital."
 					by="Benjamin Skinner (Dec 2023)"
 				/>
 				<Work
@@ -130,7 +130,7 @@ const Page: React.FC<Props> = ({}) => {
 					title="Write, Damn You! Write!"
 					image={Image14}
 					url="https://cdn.discordapp.com/attachments/989274745495240734/1191113123504062474/benjaminskinner_A_man_at_hiis_desk_screaing_into_his_hands._Edv_2585a823-897b-4cb2-bc82-060a3f2dcf3d.png?ex=65a4418a&is=6591cc8a&hm=40cded71de3a6e0739ed6a8f6781d832e1eda91f65152367025f75d1254ded7d&"
-					poem="Just because I feel doesn't mean I have the ability to express my feelings in my art. Perhaps the beauty of human feelings is far greater than the beauty of human art? And what if the same is true of the beauty of nature?"
+					poem="Just because I feel doesn't mean that I have the ability to express my feelings in my art. Perhaps the beauty of human feelings is far greater than the beauty of human art? And what if the same is true of the beauty of nature?"
 					by="Benjamin Skinner (Dec 2023)"
 				/>
 				<Work
