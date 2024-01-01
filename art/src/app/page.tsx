@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function Home() {
 	return (
 		<NextUIProvider>
-			<div className="w-full h-min-screen bg-gradient-to-bl from-orange-500 to-yellow-300">
+			<div className="w-full h-min-screen lg:h-screen bg-gradient-to-bl from-orange-500 to-yellow-300">
 				<p className="text-2xl font-medium text-center pt-12 pb-6">
 					Welcome! Please select an exhibit:
 				</p>
