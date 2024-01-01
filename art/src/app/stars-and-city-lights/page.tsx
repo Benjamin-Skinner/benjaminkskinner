@@ -55,12 +55,12 @@ const Page: React.FC<Props> = ({}) => {
 
 							<p className=" text-gray-800 font-light italic pt-6">
 								Each work is a collaboration between myself and
-								Midjourney. At times, the images created were
-								exactly what I had in mind; at others, the AI
-								created something more beautiful than what I
-								envisioned. In either case, I hope to show the
-								value of AI-generated art as a legitimate form
-								of artistic endeavour.
+								Midjourney, an AI image generation tool. At
+								times, the images created were exactly what I
+								had in mind; at others, the AI created something
+								more beautiful than what I envisioned. In either
+								case, I hope to show the value of AI-generated
+								art as a legitimate form of artistic endeavour.
 							</p>
 						</div>
 					</CardBody>
