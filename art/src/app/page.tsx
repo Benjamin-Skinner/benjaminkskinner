@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function Home() {
 	return (
 		<NextUIProvider>
-			<div className="w-full h-screen bg-gradient-to-bl from-orange-500 to-yellow-300">
+			<div className="w-full h-min-screen bg-gradient-to-bl from-orange-500 to-yellow-300">
 				<p className="text-2xl font-medium text-center pt-12 pb-6">
 					Welcome! Please select an exhibit:
 				</p>
@@ -45,12 +45,12 @@ const Exhibit = ({ title, description, link }: CardProps) => {
 		<Link href={link}>
 			<Card
 				isBlurred
-				className="h-full w-[600px] border-none bg-background/60 dark:bg-default-100/50 px-8 hover:scale-[1.02] transition-all duration-300 ease-in-out"
+				className="h-full w-full lg:w-[600px] border-none bg-background/60 dark:bg-default-100/50 px-8 hover:scale-[1.02] transition-all duration-300 ease-in-out"
 				shadow="sm"
 			>
 				<CardBody>
-					<div className="h-24 flex justify-center items-center">
-						<h1 className="text-4xl font-medium mt-2 text-center">
+					<div className="h-min-24 flex justify-center items-center">
+						<h1 className="py-4 text-4xl font-medium mt-2 text-center">
 							{title}
 						</h1>
 					</div>

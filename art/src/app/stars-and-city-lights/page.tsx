@@ -24,22 +24,21 @@ import {
 	Divider,
 	Link,
 } from '@nextui-org/react'
-import { Button } from '@nextui-org/react'
 
 interface Props {}
 
 const Page: React.FC<Props> = ({}) => {
 	return (
-		<div className="bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200 pt-12">
-			<section className="h-screen flex items-center justify-center">
+		<div className="bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200 pt-12 w-full overflow-hidden w-max-[100%]">
+			<section className="h-screen flex items-center justify-center w-max-[100%]">
 				<Image
 					alt="A city at night"
 					src={BG}
-					className="object-cover absolute w-full h-full top-0 opacity-75"
+					className="object-cover absolute w-full h-full top-0 opacity-75 w-max-full"
 				/>
 				<Card
 					// isBlurred
-					className="border-none bg-background/60 dark:bg-default-100/50 w-5/6 lg:w-1/2"
+					className="border-none bg-background/60 w-5/6 lg:w-1/2 self-center"
 					shadow="sm"
 				>
 					<CardBody className="px-8">
