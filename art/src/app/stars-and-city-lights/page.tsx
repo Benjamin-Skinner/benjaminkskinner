@@ -221,7 +221,7 @@ const Work = ({
 						className="rounded-md shadow-lg shadow-black border-8 border-black h-3/4 w-auto aspect-auto"
 					/>
 				</div>
-				<Card className="min-w-[400px] max-w-[400px] min-h-min flex flex-1 ml-12 mr-8">
+				<Card className="max-w-[80%] lg:min-w-[400px] lg:max-w-[400px] min-h-min flex flex-1 lg:ml-12 lg:mr-8">
 					<CardHeader className="flex gap-3">
 						<div className="flex flex-col">
 							<p className="text-md font-bold italic">{title}</p>
