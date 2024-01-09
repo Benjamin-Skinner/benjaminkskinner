@@ -1,11 +1,16 @@
 ---
 title: My Reading List
 slug: reading-list
-date: 2023-08
+date: 2024-01
 status: public
 ---
 
-## 2023 (so far)
+## 2024
+
+1. Flappers and Philosophers (Scott Fitzgerald)
+2. The Old Man and the Sea (Ernest Hemingway)
+
+## 2023
 
 1. Discomfortable (A.J. Bond)
 2. Non-Violent Communication (Marshall Rosenberg)

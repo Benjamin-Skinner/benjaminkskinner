@@ -135,6 +135,16 @@ export default function Home() {
 						“Man suffers only because he takes seriously what the
 						gods made for fun.” – Alan Watts
 					</li>
+					<li>
+						Interested in AI Art?{' '}
+						<a
+							className="link"
+							href="https://art.benjaminkskinner.com/stars-and-city-lights"
+						>
+							Check out this digital AI-assisted art installation
+							that I created
+						</a>
+					</li>
 				</ul>
 			</section>
 
@@ -249,43 +259,45 @@ export default function Home() {
 					<p>Living forever</p>
 				</div>
 				<div className="mb-6">
-					<h4>Role model?</h4>
+					<p className="text-xl font-bold">Role model?</p>
 					<p>Marcus Aurelius</p>
 				</div>
 				<div className="mb-6">
-					<h4>Pitch clock?</h4>
+					<p className="text-xl font-bold">Pitch clock?</p>
 					<p>It&apos;s alright</p>
 				</div>
 				<div className="mb-6">
-					<h4>Starbucks order?</h4>
+					<p className="text-xl font-bold">Starbucks order?</p>
 					<p>Chai Latte</p>
 				</div>
 				<div className="mb-6">
-					<h4>Favorite dessert?</h4>
+					<p className="text-xl font-bold">Favorite dessert?</p>
 					<p>Carrot cake</p>
 				</div>
 				<div className="mb-6">
-					<h4>Who&apos;s GOAT?</h4>
+					<p className="text-xl font-bold">Who&apos;s GOAT?</p>
 					<p>Khabib Nurmogomedov</p>
 				</div>
 				<div className="mb-6">
-					<h4>Favorite director?</h4>
+					<p className="text-xl font-bold">Favorite director?</p>
 					<p>Christopher Nolan</p>
 				</div>
 				<div className="mb-6">
-					<h4 className="">Political beliefs?</h4>
+					<p className="text-xl font-bold">Political beliefs?</p>
 					<p>It&apos;s complicated</p>
 				</div>
 				<div className="mb-6">
-					<h4>Alternate-timeline career?</h4>
+					<p className="text-xl font-bold">
+						Alternate-timeline career?
+					</p>
 					<p>MMA Fighter</p>
 				</div>
 				<div className="mb-6">
-					<h4>Favorite team?</h4>
+					<p className="text-xl font-bold">Favorite team?</p>
 					<p>Philadelphia Phillies</p>
 				</div>
 				<div className="mb-6">
-					<h4>Skip leg-day?</h4>
+					<p className="text-xl font-bold">Skip leg-day?</p>
 					<p>Not ever.</p>
 				</div>
 			</section>
