@@ -9,6 +9,7 @@ status: public
 
 1. Flappers and Philosophers (Scott Fitzgerald)
 2. The Old Man and the Sea (Ernest Hemingway)
+3. The Sun Also Rises (Ernest Hemingway)
 
 ## 2023
 
