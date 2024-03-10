@@ -1,9 +1,8 @@
-import { NextApiRequest, NextApiResponse } from 'next'
 import fs from 'fs'
 import path from 'path'
 import { NextResponse } from 'next/server'
 
-export async function GET(req: NextApiRequest, res: NextApiResponse) {
+export async function GET(req: Request, res: Response) {
 	try {
 		const filePath = path.join(process.cwd(), 'src/content/files/js.js')
 		const fileContent = fs.readFileSync(filePath, 'utf-8')
