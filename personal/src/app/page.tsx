@@ -211,7 +211,7 @@ export default function Home() {
 					These are my three favorite books. They all play a
 					significant role in how I view the world.{' '}
 					<Link href="/posts/reading-list" className="link">
-						Here&apos;s a list of of all the books I&apos;ve read
+						Click here a list of of all the books I&apos;ve read
 						recently.
 					</Link>
 				</p>
