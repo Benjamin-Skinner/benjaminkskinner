@@ -11,6 +11,7 @@ status: public
 2. The Old Man and the Sea (Ernest Hemingway)
 3. The Sun Also Rises (Ernest Hemingway)
 4. Song of Solomon (Toni Morrison)
+5. The Trial (Franz Kafka)
 
 ## 2023
 
