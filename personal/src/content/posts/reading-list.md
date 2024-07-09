@@ -12,6 +12,8 @@ status: public
 3. The Sun Also Rises (Ernest Hemingway)
 4. Song of Solomon (Toni Morrison)
 5. The Trial (Franz Kafka)
+6. Norwegian Wood (Haruki Murakami)
+7. A Separate Peace (John Knowles)
 
 ## 2023
 

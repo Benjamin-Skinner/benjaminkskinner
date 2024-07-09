@@ -14,6 +14,8 @@ status: private
 ### Asia
 
 -   Cambodia
+-   Japan
+-   South Korea
 
 ### Europe
 
