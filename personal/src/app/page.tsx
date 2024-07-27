@@ -284,7 +284,7 @@ export default function Home() {
 				</div>
 				<div className="mb-6">
 					<p className="text-xl font-bold">Political beliefs?</p>
-					<p>It&apos;s complicated</p>
+					<p>Randian Socialism?</p>
 				</div>
 				<div className="mb-6">
 					<p className="text-xl font-bold">

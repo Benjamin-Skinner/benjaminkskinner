@@ -2,7 +2,7 @@
 title: How to Train the Mind
 slug: training-your-mind
 date: 2023-11
-status: public
+status: private
 ---
 
 I know that the mind is the master of human life. The mind controls the body, not
@@ -98,4 +98,4 @@ Note: Update this list frequently, and refer to it often. You've always known th
 
 _"I am not afraid, for I have mastered my mind, and with it, have seen the greatest truth, beauty, and power that the universe has to offer. I now die, but I have lived, and I have seen the face of God. So I shall walk into the sunset knowing that all is well, and I have fulfilled what I was meant to do."_
 
-Are these words true for you? Make them so.
+Are these words true for you, Ben? Make them so.

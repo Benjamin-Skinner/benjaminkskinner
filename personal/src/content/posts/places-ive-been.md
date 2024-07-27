@@ -25,6 +25,10 @@ status: private
 -   Dijon
 -   Bruxelles
 -   Albania
+-   Warsaw
+-   Krakow
+-   Gdansk
+-   Prague
 
 ### North America
 
