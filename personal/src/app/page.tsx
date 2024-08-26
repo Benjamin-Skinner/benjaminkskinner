@@ -100,11 +100,7 @@ export default function Home() {
 					<li>
 						A rich person is nothing but a poor person with money
 					</li>
-					<li>
-						<Link className="link" href="/news">
-							Check out my hacker news UI
-						</Link>
-					</li>
+
 					<li>
 						When you think of something funny today, know that it
 						was me telepathically telling you a joke. You&apos;re
