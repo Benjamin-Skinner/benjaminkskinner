@@ -14,6 +14,7 @@ status: public
 5. The Trial (Franz Kafka)
 6. Norwegian Wood (Haruki Murakami)
 7. A Separate Peace (John Knowles)
+8. Lateral Thinking (Edward De Bono)
 
 ## 2023
 
