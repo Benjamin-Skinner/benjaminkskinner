@@ -15,6 +15,7 @@ status: public
 6. Norwegian Wood (Haruki Murakami)
 7. A Separate Peace (John Knowles)
 8. Lateral Thinking (Edward De Bono)
+9. The Mom Test (Rob Fitzpatrick)
 
 ## 2023
 
