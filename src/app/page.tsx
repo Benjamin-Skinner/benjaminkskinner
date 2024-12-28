@@ -4,6 +4,7 @@ import Link from "next/link";
 import PowerOfNow from "@assets/books/pon.jpg";
 import Stoic from "@assets/books/stoic.jpg";
 import Fountainhead from "@assets/books/fountainhead.jpg";
+import Chess from "./_home/Chess";
 
 export default function Home() {
   return (
@@ -62,6 +63,10 @@ export default function Home() {
             be the person you want to be.
           </li>
         </ol>
+      </section>
+
+      <section>
+        <Chess />
       </section>
 
       <section>
