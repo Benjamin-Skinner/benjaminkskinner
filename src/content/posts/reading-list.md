@@ -1,7 +1,7 @@
 ---
 title: My Reading List
 slug: reading-list
-date: 2024-01
+date: 2024-12
 status: public
 ---
 
@@ -16,6 +16,7 @@ status: public
 7. A Separate Peace (John Knowles)
 8. Lateral Thinking (Edward De Bono)
 9. The Mom Test (Rob Fitzpatrick)
+10. The Quiet American (Graham Greene)
 
 ## 2023
 

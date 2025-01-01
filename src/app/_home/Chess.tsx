@@ -20,11 +20,11 @@ const Chess: React.FC<Props> = ({}) => {
         <p>Loading...</p>
       ) : (
         <div className="flex flex-col lg:flex-row items-center justify-evenly space-x-4">
-          <div className="shadow-md p-4 mb-4 rounded-lg w-full md:w-4/5 lg:w-1/2 text-center">
+          <div className="shadow-md p-4 mb-4 rounded-lg w-full md:w-4/5 lg:w-1/2 text-center dark:shadow-gray-500">
             <p className="text-xs mb-4">Current Rating</p>
             <p className="text-3xl text-black">{stats?.elo}</p>
           </div>
-          <div className="shadow-md p-4 mb-4 rounded-lg w-full md:w-4/5 lg:w-1/2 text-center">
+          <div className="shadow-md p-4 mb-4 rounded-lg w-full md:w-4/5 lg:w-1/2 text-center dark:shadow-gray-500">
             <p className="text-xs mb-4">Most Recent Game</p>
             <p className="text-3xl text-black">
               {stats?.last_game?.result.toUpperCase()}
@@ -35,7 +35,7 @@ const Chess: React.FC<Props> = ({}) => {
               — {stats?.last_game?.date} —{" "}
             </p>
           </div>
-          <div className="shadow-md p-4 mb-4 rounded-lg w-full md:w-4/5 lg:w-1/2 text-center">
+          <div className="shadow-md p-4 mb-4 rounded-lg w-full md:w-4/5 lg:w-1/2 text-center dark:shadow-gray-500">
             <p className="text-xs mb-4">Last 10</p>
             <p className="text-3xl text-black">
               {stats?.last_ten.wins} — {stats?.last_ten.losses}
@@ -47,9 +47,9 @@ const Chess: React.FC<Props> = ({}) => {
         <a
           href={stats?.profile_link}
           target="_blank"
-          className="mt-4 shadow-md p-8 mb-4 rounded-lg w-4/5 text-center text-gray-500 text-lg hover:bg-gray-200 p-2 rounded-md m-auto"
+          className="mt-4 shadow-md p-8 mb-4 rounded-lg w-4/5 text-center text-gray-500 text-lg hover:bg-gray-200 dark:hover:bg-gray-800 p-2 rounded-md m-auto dark:shadow-gray-500"
         >
-          Challenge Me
+          Play Me
         </a>
       </div>
     </div>

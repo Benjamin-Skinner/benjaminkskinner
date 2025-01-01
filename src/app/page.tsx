@@ -69,7 +69,7 @@ export default function Home() {
         <Chess />
       </section>
 
-      <section>
+      {/* <section>
         <h2>A Few Random Things</h2>
         <ul>
           <li>
@@ -81,7 +81,7 @@ export default function Home() {
           <li>A rich person is nothing but a poor person with money</li>
 
           <li>
-            When you think of something funny today, know that it was me
+          When you think of something funny today, know that it was me
             telepathically telling you a joke. You&apos;re welcome.
           </li>
           <li>This, too, shall pass</li>
@@ -118,7 +118,7 @@ export default function Home() {
             </a>
           </li>
         </ul>
-      </section>
+      </section> */}
 
       <section>
         <h2>Top 3 Books</h2>
@@ -126,13 +126,13 @@ export default function Home() {
           These are my three favorite books. They all play a significant role in
           how I view the world.{" "}
           <Link href="/posts/reading-list" className="link">
-            Click here a list of of all the books I&apos;ve read recently.
+            Click here for a list of of all the books I&apos;ve read recently.
           </Link>
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 mt-12 gap-4">
           <Image
             src={Stoic}
-            alt="Power of Now, by Eckhart Tolle"
+            alt="Discourses, by Epictetus"
             width={200}
             height={200}
             className="m-auto mb-3 border-2 border-black rounded-sm"
@@ -146,7 +146,7 @@ export default function Home() {
           />
           <Image
             src={Fountainhead}
-            alt="Power of Now, by Eckhart Tolle"
+            alt="The Fountainhead, by Ayn Rand"
             width={200}
             height={200}
             className="m-auto mb-3 border-2 border-black rounded-sm"

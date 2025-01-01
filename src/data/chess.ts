@@ -1,5 +1,4 @@
 import { ChessDotCom_Game, ChessGame, ChessStats } from "@/types";
-import { profile } from "console";
 import { useEffect, useState } from "react";
 
 const USERNAME = "the-skinner";
@@ -10,7 +9,6 @@ export const useLastGame = () => {
 
   const get = async () => {
     const games = await getLast10Games();
-    console.log(games);
     const lastGame = formatGameData(
       games.reduce((a, b) => (a.end_time > b.end_time ? a : b))
     );
@@ -60,7 +58,9 @@ async function getLast10Games() {
 
 // Get All Games from Month
 async function getGamesByMonth(month: number, year: number, maxNum: number) {
-  const url = `https://api.chess.com/pub/player/${USERNAME}/games/${year}/${month}`;
+  // Append 0 to month if less than 10
+  const formattedMonth = month < 10 ? `0${month}` : month;
+  const url = `https://api.chess.com/pub/player/${USERNAME}/games/${year}/${formattedMonth}`;
   const res = await fetch(url);
   const { games } = await res.json();
   return games.slice(-maxNum) as ChessDotCom_Game[];
