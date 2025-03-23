@@ -65,9 +65,9 @@ export default function Home() {
         </ol>
       </section>
 
-      <section>
+      {/* <section>
         <Chess />
-      </section>
+      </section> */}
 
       {/* <section>
         <h2>A Few Random Things</h2>
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <h2>Two-word Q & A</h2>
         <div className="mb-6">
           <p className="text-xl font-bold">Worst fear?</p>
@@ -192,7 +192,7 @@ export default function Home() {
           <p className="text-xl font-bold">Skip leg-day?</p>
           <p>Not ever.</p>
         </div>
-      </section>
+      </section> */}
 
       <section>
         <h2>3 Things that make me feel alive</h2>
