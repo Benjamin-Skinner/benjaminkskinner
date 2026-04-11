@@ -5,6 +5,7 @@ import Image from "next/image";
 import Wanderer from "@assets/wanderer.jpg";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
+import { FiSun, FiMoon } from "react-icons/fi";
 
 const Navbar: React.FC = ({}) => {
   return (
@@ -82,10 +83,12 @@ const ChangeTheme: React.FC = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-      <p className="font-bold text-slate-600 text-lg border-transparent hover:border-slate-200 border-b-4 hover:text-black dark:hover:text-white dark:border-transparent dark:text-slate-400">
-        {theme === "dark" ? "Light Theme" : "Dark Theme"}
-      </p>
+    <button
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      className="text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors"
+      aria-label="Toggle theme"
+    >
+      {theme === "dark" ? <FiSun size={16} /> : <FiMoon size={16} />}
     </button>
   );
 };
