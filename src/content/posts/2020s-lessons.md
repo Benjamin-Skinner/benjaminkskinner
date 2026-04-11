@@ -5,6 +5,10 @@ date: 2024-11
 status: public
 ---
 
+## 2025: Standards
+
+The standard required to achieve an ambitious goal is often much higher than I expect. Getting there demands more time, sacrifice, and suffering than a naive assessment would suggest. The goal post always looks closer than it really is.
+
 ## 2024: Patience
 
 Do not get excited about a hypothetical scenario. Wait to be happy until it is
