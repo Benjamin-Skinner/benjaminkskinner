@@ -1,0 +1,20 @@
+---
+title: Where Exactly is Shawn Mendes in 'Lost in Japan'?
+slug: shawn-mendes
+date: 2020-07
+status: public
+---
+
+Shawn Mendes’ 2018 single Lost in Japan, appears at first glance to be a generic love song conceivably set anywhere in the world. However upon closer examination, it becomes clear that the evidence provided in the song allows us to conclude exactly where in the world Mendes sings from, down to the specific city. Let’s examine the lyrics.
+
+Mendes sings “I’m a couple hundred miles from Japan tonight…” This is the first clue we can use to derive Mendes’ location. Looking at a map of East Asia, it is clear that there are only a few possible locations not in the middle of the Pacific Ocean which meet this criterion of being 200 miles away from Japan. The first is northern Taiwan. This region lies roughly 200 miles from the Japanese Sakishima Islands in the East China Sea. Second is somewhere in southern South Korea, 200 miles from southern Japan. The third possible location is in a remote area of Eastern Siberia, 200 miles from Japan’s northern island of Hokkaido. The fourth and final candidate is southern Sakhalin, a sparsely populated island in eastern Russia.
+
+Our next piece of evidence is the first two lines of the song: “All it’d take is one flight / We’d be in the same time zone.” This allows us to infer that wherever Mendes is, he is not in the same timezone as Japan. Thus, we can eliminate the possibility that Mendes is in South Korea, as it is in the same time zone as Japan. This leaves us with three possible locations remaining.
+
+Consider the line: “It’ll only be a couple hours / And I’m about to leave / Do you got plans tonight?” Here Mendes provides us with our third piece of evidence. Wherever Mendes is, it must take him 2 hours to travel from his location to Japan. If Mendes were to be in Taiwan trying to travel to the Sakishima Islands, he would have two options. The first is a direct flight to the primary airport of the region (Ishigaki), a flight which clocks in at around 55 minutes, significantly shorter than the 2 hours indicated in the song. The second is a 10-hour ferry ride, clearly not a possibility given Mendes’ timeframe and mention of flying. Thus, he is not in Taiwan.
+
+So, Mendes is in Russia, in one of two possible locations. Let us now consider the geography of Eastern Siberia in order to quickly eliminate this possibility. The only areas of mainland Russia within 200 miles of Japan are remote wilderness areas without sufficient infrastructure for the air travel necessary to make Mendes’ statements accurate. Thus, Mendes is not in Siberia.
+
+As a result, the only remaining possibility is that Mendes is located on the Russian island of Sakhalin. Let us now examine if this conclusion does in fact make sense. There is only one major airport in Sakhalin within 200 miles of Japan, so unless Mendes is associated with a Russian military base and thus has access to non-civilian airfields, there is only one possible location on the island for him to be. Were Mendes to be on the island of Sakhalin, he would be in Yuzhno-Sakhalinsk, a city of 190,000 on the southern part of the island. As it turns out, this conclusion fits perfectly with all of the evidence provided in the song. 200 miles and 1 time zone away, 2 hours by plane from Yuzhno-Sakhalinsk is the Japanese city of Asahikawa. So there you have it. Mendes is on the Russian island of Sakhalin, in the city of Yuzhno-Sakhalinsk, singing to someone in Asahikawa, Japan. Who would’ve thought?
+
+Now, next time you listen to Shawn Mendes’ Lost in Japan, you’ll know exactly what’s going on.
