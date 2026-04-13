@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useRef, useCallback } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
 
 export interface MovieItem {
@@ -19,7 +19,7 @@ const PAGE_SIZE = 24;
 export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
   const [sort, setSort] = useState<SortKey>("year");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  const loaderRef = useRef<HTMLDivElement | null>(null);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const sorted = useMemo(() => {
     return [...movies].sort((a, b) => {
@@ -32,26 +32,24 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
 
   const visible = sorted.slice(0, visibleCount);
 
-  const observerRef = useCallback(
-    (node: HTMLDivElement | null) => {
-      if (!node) return;
-      const observer = new IntersectionObserver(
-        (entries) => {
-          if (entries[0].isIntersecting) {
-            setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, sorted.length));
-          }
-        },
-        { rootMargin: "200px" }
-      );
-      observer.observe(node);
-      loaderRef.current = node;
-      return () => observer.disconnect();
-    },
-    [sorted.length]
-  );
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, sorted.length));
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [sorted.length, visibleCount]);
 
   const sortBtn = (key: SortKey, label: string) => (
     <button
+      key={key}
       onClick={() => { setSort(key); setVisibleCount(PAGE_SIZE); }}
       className={`px-4 py-1.5 rounded-full text-sm font-semibold transition-colors ${
         sort === key
@@ -107,7 +105,7 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
 
       {/* Lazy load sentinel */}
       {visibleCount < sorted.length && (
-        <div ref={observerRef} className="h-16 flex items-center justify-center mt-8">
+        <div ref={sentinelRef} className="h-16 flex items-center justify-center mt-8">
           <span className="text-sm text-gray-400">Loading more...</span>
         </div>
       )}
