@@ -1,7 +1,7 @@
 import React from 'react'
 import { Post, PostData } from '../../../types'
 import { getPostData, getPost } from './getPostData'
-import ReactMarkdown from 'react-markdown'
+import { marked } from 'marked'
 import { redirect } from 'next/navigation'
 
 interface Props {
@@ -16,7 +16,6 @@ export async function generateStaticParams() {
 	}))
 }
 
-// @ts-expect-error Async Server Component
 const PostPage: React.FC<Props> = async ({ params }) => {
 	const { slug } = await params
 	const post: Post = await getPost(slug)
@@ -25,21 +24,15 @@ const PostPage: React.FC<Props> = async ({ params }) => {
 		return redirect(post.data.redirect)
 	}
 
+	const html = marked(post.content)
+
 	return (
 		<div>
 			<ArticleHeading post={post} />
-			<div className="px-10">
-				<ReactMarkdown
-					components={{
-						p: (props) => <p className="blog-text" {...props} />,
-						ol: (props) => <ol className="blog-ol" {...props} />,
-						ul: (props) => <ul className="blog-ul" {...props} />,
-						hr: (props) => <div className="blog-hr" {...props} />,
-					}}
-				>
-					{post.content}
-				</ReactMarkdown>
-			</div>
+			<div
+				className="px-10 prose dark:prose-invert max-w-none"
+				dangerouslySetInnerHTML={{ __html: html }}
+			/>
 		</div>
 	)
 }
