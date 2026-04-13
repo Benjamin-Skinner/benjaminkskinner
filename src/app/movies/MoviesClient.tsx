@@ -8,6 +8,7 @@ export interface MovieItem {
   title: string;
   year: string;
   director: string;
+  rating: number | null;
   genres: string[];
   poster: string | null;
 }
@@ -124,6 +125,9 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
             <p className="text-xs text-gray-500 dark:text-gray-400">{movie.year}</p>
             {movie.director && (
               <p className="text-xs text-gray-400 dark:text-gray-500 truncate">{movie.director}</p>
+            )}
+            {movie.rating !== null && movie.rating !== undefined && (
+              <p className="text-xs text-yellow-500">{"★".repeat(movie.rating)}{"☆".repeat(5 - movie.rating)}</p>
             )}
           </div>
         ))}

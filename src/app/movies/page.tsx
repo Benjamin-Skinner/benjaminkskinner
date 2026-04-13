@@ -51,6 +51,7 @@ async function getMovies(): Promise<MovieItem[]> {
           title: m.title,
           year: m.release_date?.slice(0, 4) ?? "?",
           director: "",
+          rating: typeof m.rating === "number" ? Math.round(m.rating / 2) : null,
           genres: (m.genre_ids ?? []).map((id: number) => GENRE_MAP[id] ?? "Other"),
           poster: m.poster_path ? `${TMDB_IMAGE_BASE}${m.poster_path}` : null,
         });
