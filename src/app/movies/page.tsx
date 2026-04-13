@@ -80,7 +80,7 @@ export default async function MoviesPage() {
 
   return (
     <div className="px-6 py-10">
-      <h1 className="text-3xl font-bold mb-2 dark:text-white">Movies</h1>
+      <h1 className="text-3xl mb-2 dark:text-white">Movies</h1>
       <MoviesClient movies={movies} />
     </div>
   );
