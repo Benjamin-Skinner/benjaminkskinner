@@ -13,13 +13,14 @@ export interface MovieItem {
   poster: string | null;
 }
 
-type SortKey = "year" | "title" | "director";
+type SortKey = "year" | "title" | "director" | "rating";
 type SortOrder = "asc" | "desc";
 
 const DEFAULT_ORDER: Record<SortKey, SortOrder> = {
   year: "desc",
   title: "asc",
   director: "asc",
+  rating: "desc",
 };
 
 const PAGE_SIZE = 24;
@@ -36,6 +37,7 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
       if (sort === "year") cmp = Number(a.year) - Number(b.year);
       else if (sort === "title") cmp = a.title.localeCompare(b.title);
       else if (sort === "director") cmp = a.director.localeCompare(b.director);
+      else if (sort === "rating") cmp = (a.rating ?? 0) - (b.rating ?? 0);
       return order === "asc" ? cmp : -cmp;
     });
   }, [movies, sort, order]);
@@ -94,6 +96,7 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
         {sortBtn("year", "By Year")}
         {sortBtn("title", "A–Z")}
         {sortBtn("director", "By Director")}
+        {sortBtn("rating", "By Rating")}
         <span className="ml-auto text-sm text-gray-400 self-center">
           {movies.length} films
         </span>
