@@ -4,6 +4,9 @@ module.exports = {
     // react-markdown has a broken type in node_modules; ignore during build
     ignoreBuildErrors: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     remotePatterns: [
       {

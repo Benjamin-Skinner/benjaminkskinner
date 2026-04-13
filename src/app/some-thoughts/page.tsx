@@ -1,9 +1,9 @@
 import Link from 'next/link'
+import React from 'react'
 import { PostData } from '../../types'
 import { getPostData } from '../posts/[slug]/getPostData'
 
-// @ts-expect-error Async Server Component
-const SomeThoughts: React.FC<Props> = async ({}) => {
+const SomeThoughts = async () => {
 	const posts: PostData[] = await getPostData()
 
 	return (
