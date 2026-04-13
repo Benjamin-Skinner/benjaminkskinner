@@ -13,22 +13,31 @@ export interface MovieItem {
 }
 
 type SortKey = "year" | "title" | "director";
+type SortOrder = "asc" | "desc";
+
+const DEFAULT_ORDER: Record<SortKey, SortOrder> = {
+  year: "desc",
+  title: "asc",
+  director: "asc",
+};
 
 const PAGE_SIZE = 24;
 
 export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
   const [sort, setSort] = useState<SortKey>("year");
+  const [order, setOrder] = useState<SortOrder>("desc");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const sorted = useMemo(() => {
     return [...movies].sort((a, b) => {
-      if (sort === "year") return Number(b.year) - Number(a.year);
-      if (sort === "title") return a.title.localeCompare(b.title);
-      if (sort === "director") return a.director.localeCompare(b.director);
-      return 0;
+      let cmp = 0;
+      if (sort === "year") cmp = Number(a.year) - Number(b.year);
+      else if (sort === "title") cmp = a.title.localeCompare(b.title);
+      else if (sort === "director") cmp = a.director.localeCompare(b.director);
+      return order === "asc" ? cmp : -cmp;
     });
-  }, [movies, sort]);
+  }, [movies, sort, order]);
 
   const visible = sorted.slice(0, visibleCount);
 
@@ -47,19 +56,35 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
     return () => observer.disconnect();
   }, [sorted.length, visibleCount]);
 
-  const sortBtn = (key: SortKey, label: string) => (
-    <button
-      key={key}
-      onClick={() => { setSort(key); setVisibleCount(PAGE_SIZE); }}
-      className={`px-4 py-1.5 rounded-full text-sm font-semibold transition-colors ${
-        sort === key
-          ? "bg-black text-white dark:bg-white dark:text-black"
-          : "bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
-      }`}
-    >
-      {label}
-    </button>
-  );
+  const handleSortClick = (key: SortKey) => {
+    if (sort === key) {
+      setOrder((prev) => (prev === "asc" ? "desc" : "asc"));
+    } else {
+      setSort(key);
+      setOrder(DEFAULT_ORDER[key]);
+    }
+    setVisibleCount(PAGE_SIZE);
+  };
+
+  const sortBtn = (key: SortKey, label: string) => {
+    const active = sort === key;
+    return (
+      <button
+        key={key}
+        onClick={() => handleSortClick(key)}
+        className={`px-4 py-1.5 rounded-full text-sm font-semibold transition-colors flex items-center gap-1 ${
+          active
+            ? "bg-black text-white dark:bg-white dark:text-black"
+            : "bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+        }`}
+      >
+        {label}
+        {active && (
+          <span className="text-xs leading-none">{order === "asc" ? "↑" : "↓"}</span>
+        )}
+      </button>
+    );
+  };
 
   return (
     <div>
@@ -96,9 +121,10 @@ export default function MoviesClient({ movies }: { movies: MovieItem[] }) {
             <p className="text-sm font-semibold leading-tight line-clamp-2 dark:text-white">
               {movie.title}
             </p>
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              {movie.director || movie.year}
-            </p>
+            <p className="text-xs text-gray-500 dark:text-gray-400">{movie.year}</p>
+            {movie.director && (
+              <p className="text-xs text-gray-400 dark:text-gray-500 truncate">{movie.director}</p>
+            )}
           </div>
         ))}
       </div>
