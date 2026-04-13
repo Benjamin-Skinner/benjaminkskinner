@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown'
 import { redirect } from 'next/navigation'
 
 interface Props {
-	params: PostData
+	params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
@@ -18,7 +18,8 @@ export async function generateStaticParams() {
 
 // @ts-expect-error Async Server Component
 const PostPage: React.FC<Props> = async ({ params }) => {
-	const post: Post = await getPost(params.slug)
+	const { slug } = await params
+	const post: Post = await getPost(slug)
 
 	if (post.data.redirect) {
 		return redirect(post.data.redirect)

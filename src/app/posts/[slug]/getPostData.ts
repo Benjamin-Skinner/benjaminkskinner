@@ -1,5 +1,5 @@
 import fs from "fs";
-import * as matter from "gray-matter";
+import matter from "gray-matter";
 import { PostData, Post } from "../../../types";
 
 export async function getPostData() {
