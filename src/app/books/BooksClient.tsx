@@ -12,15 +12,13 @@ export interface BookItem {
   cover: string | null;
 }
 
-type ViewMode = "read" | "wantToRead";
-type SortKey = "title" | "author" | "rating" | "dateRead";
+type SortKey = "title" | "author" | "rating";
 type SortOrder = "asc" | "desc";
 
 const DEFAULT_ORDER: Record<SortKey, SortOrder> = {
   title: "asc",
   author: "asc",
   rating: "desc",
-  dateRead: "desc",
 };
 
 const PAGE_SIZE = 24;
@@ -32,28 +30,20 @@ export default function BooksClient({
   readBooks: BookItem[];
   wantToReadBooks: BookItem[];
 }) {
-  const [view, setView] = useState<ViewMode>("read");
-  const [sort, setSort] = useState<SortKey>("dateRead");
+  const [sort, setSort] = useState<SortKey>("rating");
   const [order, setOrder] = useState<SortOrder>("desc");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
-  const books = view === "read" ? readBooks : wantToReadBooks;
-
   const sorted = useMemo(() => {
-    return [...books].sort((a, b) => {
+    return [...readBooks].sort((a, b) => {
       let cmp = 0;
       if (sort === "title") cmp = a.title.localeCompare(b.title);
       else if (sort === "author") cmp = a.author.localeCompare(b.author);
       else if (sort === "rating") cmp = (a.rating ?? 0) - (b.rating ?? 0);
-      else if (sort === "dateRead") {
-        const dateA = a.dateRead ? new Date(a.dateRead).getTime() : 0;
-        const dateB = b.dateRead ? new Date(b.dateRead).getTime() : 0;
-        cmp = dateA - dateB;
-      }
       return order === "asc" ? cmp : -cmp;
     });
-  }, [books, sort, order]);
+  }, [readBooks, sort, order]);
 
   const visible = sorted.slice(0, visibleCount);
 
@@ -82,35 +72,7 @@ export default function BooksClient({
     setVisibleCount(PAGE_SIZE);
   };
 
-  const handleViewChange = (newView: ViewMode) => {
-    setView(newView);
-    setVisibleCount(PAGE_SIZE);
-    // Reset sort for want-to-read since it doesn't have ratings/dates
-    if (newView === "wantToRead") {
-      setSort("title");
-      setOrder("asc");
-    } else {
-      setSort("dateRead");
-      setOrder("desc");
-    }
-  };
 
-  const viewBtn = (mode: ViewMode, label: string, count: number) => {
-    const active = view === mode;
-    return (
-      <button
-        key={mode}
-        onClick={() => handleViewChange(mode)}
-        className={`px-4 py-1.5 rounded-full text-sm font-semibold transition-colors ${
-          active
-            ? "bg-black text-white dark:bg-white dark:text-black"
-            : "bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
-        }`}
-      >
-        {label} ({count})
-      </button>
-    );
-  };
 
   const sortBtn = (key: SortKey, label: string, disabled: boolean = false) => {
     const active = sort === key;
@@ -143,10 +105,9 @@ export default function BooksClient({
       <div className="flex gap-2 mb-8 flex-wrap">
         {sortBtn("title", "A–Z")}
         {sortBtn("author", "By Author")}
-        {view === "read" && sortBtn("rating", "By Rating")}
-        {view === "read" && sortBtn("dateRead", "By Date")}
+        {sortBtn("rating", "By Rating")}
         <span className="ml-auto text-sm text-gray-400 self-center">
-          {books.length} books
+          {readBooks.length} books
         </span>
       </div>
 
@@ -186,9 +147,9 @@ export default function BooksClient({
       </div>
 
       {/* Empty state */}
-      {books.length === 0 && (
+      {readBooks.length === 0 && (
         <div className="text-center py-16 text-gray-400">
-          <p>{view === "read" ? "No books read yet." : "No books in your reading list."}</p>
+          <p>No books yet.</p>
         </div>
       )}
 
