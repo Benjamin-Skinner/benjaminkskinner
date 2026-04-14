@@ -236,7 +236,7 @@
       "olid": "manual:can't-hurt-me",
       "title": "Can't Hurt Me",
       "author": "David Goggins",
-      "rating": 3,
+      "rating": 5,
       "yearRead": "2021"
     },
     {
@@ -257,14 +257,14 @@
       "olid": "manual:the-practicing-stoic",
       "title": "The Practicing Stoic",
       "author": "Ward Farnsworth",
-      "rating": 3,
+      "rating": 5,
       "yearRead": "2021"
     },
     {
       "olid": "manual:the-elephant-in-the-brain",
       "title": "The Elephant in the Brain",
       "author": "Kevin Simler, Robin Hanson",
-      "rating": 3,
+      "rating": 4,
       "yearRead": "2021"
     },
     {
@@ -292,7 +292,7 @@
       "olid": "manual:darkness-at-noon",
       "title": "Darkness at Noon",
       "author": "Arthur Koestler",
-      "rating": 3,
+      "rating": 4,
       "yearRead": "2020"
     },
     {
@@ -306,7 +306,7 @@
       "olid": "manual:the-power-of-now",
       "title": "The Power of Now",
       "author": "Eckhart Tolle",
-      "rating": 3,
+      "rating": 5,
       "yearRead": "2020"
     },
     {
@@ -453,7 +453,7 @@
       "olid": "manual:wuthering-heights",
       "title": "Wuthering Heights",
       "author": "Emily Bront\u00eb",
-      "rating": 3,
+      "rating": 2,
       "yearRead": "pre-2019"
     },
     {
@@ -485,13 +485,6 @@
       "yearRead": "pre-2019"
     },
     {
-      "olid": "manual:beowulf",
-      "title": "Beowulf",
-      "author": "Unknown",
-      "rating": 3,
-      "yearRead": "pre-2019"
-    },
-    {
       "olid": "manual:crime-and-punishment",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
@@ -503,6 +496,76 @@
       "title": "The Pearl",
       "author": "John Steinbeck",
       "rating": 3,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:the-fellowship-of-the-ring",
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "rating": 3,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:the-two-towers",
+      "title": "The Two Towers",
+      "author": "J.R.R. Tolkien",
+      "rating": 3,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:the-return-of-the-king",
+      "title": "The Return of the King",
+      "author": "J.R.R. Tolkien",
+      "rating": 3,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-sorcerers-stone",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-chamber-of-secrets",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-prisoner-of-azkaban",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-goblet-of-fire",
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-order-of-the-phoenix",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-half-blood-prince",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "yearRead": "pre-2019"
+    },
+    {
+      "olid": "manual:harry-potter-and-the-deathly-hallows",
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "rating": 4,
       "yearRead": "pre-2019"
     }
   ],
