@@ -8,17 +8,18 @@ export interface BookItem {
   title: string;
   author: string;
   rating: number | null;
-  dateRead: string | null;
+  yearRead: string | null;
   cover: string | null;
 }
 
-type SortKey = "title" | "author" | "rating";
+type SortKey = "title" | "author" | "rating" | "year";
 type SortOrder = "asc" | "desc";
 
 const DEFAULT_ORDER: Record<SortKey, SortOrder> = {
   title: "asc",
   author: "asc",
   rating: "desc",
+  year: "desc",
 };
 
 const PAGE_SIZE = 24;
@@ -41,6 +42,7 @@ export default function BooksClient({
       if (sort === "title") cmp = a.title.localeCompare(b.title);
       else if (sort === "author") cmp = a.author.localeCompare(b.author);
       else if (sort === "rating") cmp = (a.rating ?? 0) - (b.rating ?? 0);
+      else if (sort === "year") cmp = (a.yearRead ?? "").localeCompare(b.yearRead ?? "");
       return order === "asc" ? cmp : -cmp;
     });
   }, [readBooks, sort, order]);
@@ -106,6 +108,7 @@ export default function BooksClient({
         {sortBtn("title", "A–Z")}
         {sortBtn("author", "By Author")}
         {sortBtn("rating", "By Rating")}
+        {sortBtn("year", "By Year")}
         <span className="ml-auto text-sm text-gray-400 self-center">
           {readBooks.length} books
         </span>
@@ -136,12 +139,17 @@ export default function BooksClient({
               {book.title}
             </p>
             <p className="text-xs text-gray-500 dark:text-gray-400 truncate">{book.author}</p>
-            {book.rating !== null && book.rating !== undefined && (
-              <p className="text-xs text-yellow-500">
-                {"★".repeat(book.rating)}
-                {"☆".repeat(5 - book.rating)}
-              </p>
-            )}
+            <div className="flex items-center gap-2">
+              {book.rating !== null && book.rating !== undefined && (
+                <p className="text-xs text-yellow-500">
+                  {"★".repeat(book.rating)}
+                  {"☆".repeat(5 - book.rating)}
+                </p>
+              )}
+              {book.yearRead && (
+                <p className="text-xs text-gray-400">{book.yearRead}</p>
+              )}
+            </div>
           </div>
         ))}
       </div>

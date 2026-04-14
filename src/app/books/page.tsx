@@ -7,8 +7,7 @@ interface BookData {
   title: string;
   author: string;
   rating?: number;
-  dateRead?: string;
-  dateAdded?: string;
+  yearRead?: string;
   cover?: string;
 }
 
@@ -28,7 +27,7 @@ async function getBooks(): Promise<{ read: BookItem[]; wantToRead: BookItem[] }>
       title: b.title,
       author: b.author,
       rating: b.rating ?? null,
-      dateRead: b.dateRead ?? null,
+      yearRead: b.yearRead ?? null,
       cover: b.cover ?? null,
     }));
 
@@ -37,7 +36,7 @@ async function getBooks(): Promise<{ read: BookItem[]; wantToRead: BookItem[] }>
       title: b.title,
       author: b.author,
       rating: null,
-      dateRead: null,
+      yearRead: null,
       cover: b.cover ?? null,
     }));
 

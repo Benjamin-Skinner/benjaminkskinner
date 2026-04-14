@@ -5,92 +5,92 @@
       "title": "Meditations",
       "author": "Marcus Aurelius",
       "rating": 5,
-      "dateRead": "2026-04-14",
-      "cover": "https://covers.openlibrary.org/b/olid/OL24347235M-M.jpg"
+      "cover": "https://covers.openlibrary.org/b/olid/OL24347235M-M.jpg",
+      "yearRead": "2026"
     },
     {
       "olid": "manual:a-moveable-feast",
       "title": "A Moveable Feast",
       "author": "Ernest Hemingway",
       "rating": 4,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:a-separate-peace",
       "title": "A Separate Peace",
       "author": "John Knowles",
       "rating": 2,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:flappers-and-philosophers",
       "title": "Flappers and Philosophers",
       "author": "F. Scott Fitzgerald",
       "rating": 3,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:lateral-thinking",
       "title": "Lateral Thinking",
       "author": "Edward de Bono",
       "rating": 5,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:norwegian-wood",
       "title": "Norwegian Wood",
       "author": "Haruki Murakami",
       "rating": 4,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:song-of-solomon",
       "title": "Song of Solomon",
       "author": "Toni Morrison",
       "rating": 5,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:the-chalice-and-the-blade",
       "title": "The Chalice and the Blade",
       "author": "Riane Eisler",
       "rating": 2,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:the-old-man-and-the-sea",
       "title": "The Old Man and the Sea",
       "author": "Ernest Hemingway",
       "rating": 4,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:the-sun-also-rises",
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
       "rating": 5,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:the-trial",
       "title": "The Trial",
       "author": "Franz Kafka",
       "rating": 4,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:this-side-of-paradise",
       "title": "This Side of Paradise",
       "author": "F. Scott Fitzgerald",
       "rating": 4,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     },
     {
       "olid": "manual:all-about-love",
       "title": "All About Love",
       "author": "bell hooks",
       "rating": 4,
-      "dateRead": "2026-04-14"
+      "yearRead": "2026"
     }
   ],
   "wantToRead": []
