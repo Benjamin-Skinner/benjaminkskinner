@@ -5,7 +5,8 @@
       "title": "Nausea",
       "author": "Jean-Paul Sartre",
       "rating": 3,
-      "yearRead": "2025"
+      "yearRead": "2025",
+      "cover": "https://covers.openlibrary.org/b/id/9393973-M.jpg"
     },
     {
       "olid": "OL82592W",
@@ -20,98 +21,112 @@
       "title": "A Moveable Feast",
       "author": "Ernest Hemingway",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/7268728-M.jpg"
     },
     {
       "olid": "manual:a-separate-peace",
       "title": "A Separate Peace",
       "author": "John Knowles",
       "rating": 2,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/10628378-M.jpg"
     },
     {
       "olid": "manual:flappers-and-philosophers",
       "title": "Flappers and Philosophers",
       "author": "F. Scott Fitzgerald",
       "rating": 3,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/880264-M.jpg"
     },
     {
       "olid": "manual:lateral-thinking",
       "title": "Lateral Thinking",
       "author": "Edward de Bono",
       "rating": 5,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/10660143-M.jpg"
     },
     {
       "olid": "manual:norwegian-wood",
       "title": "Norwegian Wood",
       "author": "Haruki Murakami",
       "rating": 4,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/2237620-M.jpg"
     },
     {
       "olid": "manual:song-of-solomon",
       "title": "Song of Solomon",
       "author": "Toni Morrison",
       "rating": 5,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/9317262-M.jpg"
     },
     {
       "olid": "manual:the-chalice-and-the-blade",
       "title": "The Chalice and the Blade",
       "author": "Riane Eisler",
       "rating": 2,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/8876683-M.jpg"
     },
     {
       "olid": "manual:the-old-man-and-the-sea",
       "title": "The Old Man and the Sea",
       "author": "Ernest Hemingway",
       "rating": 4,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/14344172-M.jpg"
     },
     {
       "olid": "manual:the-sun-also-rises",
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
       "rating": 5,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/78741-M.jpg"
     },
     {
       "olid": "manual:the-trial",
       "title": "The Trial",
       "author": "Franz Kafka",
       "rating": 4,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/997423-M.jpg"
     },
     {
       "olid": "manual:this-side-of-paradise",
       "title": "This Side of Paradise",
       "author": "F. Scott Fitzgerald",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/8243609-M.jpg"
     },
     {
       "olid": "manual:all-about-love",
       "title": "All About Love",
       "author": "bell hooks",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/42317-M.jpg"
     },
     {
       "olid": "manual:the-mom-test",
       "title": "The Mom Test",
       "author": "Rob Fitzpatrick",
       "rating": 4,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/10660557-M.jpg"
     },
     {
       "olid": "manual:the-quiet-american",
       "title": "The Quiet American",
       "author": "Graham Greene",
       "rating": 2,
-      "yearRead": "2024"
+      "yearRead": "2024",
+      "cover": "https://covers.openlibrary.org/b/id/6783126-M.jpg"
     },
     {
       "olid": "manual:discomfortable",
@@ -125,448 +140,512 @@
       "title": "Non-Violent Communication",
       "author": "Marshall Rosenberg",
       "rating": 3,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/940686-M.jpg"
     },
     {
       "olid": "manual:the-fall",
       "title": "The Fall",
       "author": "Albert Camus",
       "rating": 3,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/8296477-M.jpg"
     },
     {
       "olid": "manual:how-to-think-like-a-roman-emperor",
       "title": "How to Think Like a Roman Emperor",
       "author": "Donald J. Robertson",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/8802189-M.jpg"
     },
     {
       "olid": "manual:i-hear-you",
       "title": "I Hear You",
       "author": "Michael Sorensen",
       "rating": 3,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/10082732-M.jpg"
     },
     {
       "olid": "manual:the-quest-for-character",
       "title": "The Quest for Character",
       "author": "Massimo Pigliucci",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/13181652-M.jpg"
     },
     {
       "olid": "manual:rome's-last-citizen",
       "title": "Rome's Last Citizen",
       "author": "Rob Goodman, Jimmy Soni",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/7282231-M.jpg"
     },
     {
       "olid": "manual:think-talk-create",
       "title": "Think, Talk, Create",
       "author": "David Brendel, Ryan Stelzer",
       "rating": 3,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/12438341-M.jpg"
     },
     {
       "olid": "manual:the-right-it",
       "title": "The Right It",
       "author": "Alberto Savoia",
       "rating": 4,
-      "yearRead": "2023"
+      "yearRead": "2023",
+      "cover": "https://covers.openlibrary.org/b/id/8797518-M.jpg"
     },
     {
       "olid": "manual:goodbye-things",
       "title": "Goodbye, Things",
       "author": "Fumio Sasaki",
       "rating": 5,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/10206062-M.jpg"
     },
     {
       "olid": "manual:becoming-bulletproof",
       "title": "Becoming Bulletproof",
       "author": "Evy Poumpouras",
       "rating": 3,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/10359658-M.jpg"
     },
     {
       "olid": "manual:the-book",
       "title": "The Book",
       "author": "Alan Watts",
       "rating": 3,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/6620702-M.jpg"
     },
     {
       "olid": "manual:papa-hemingway",
       "title": "Papa Hemingway",
       "author": "A.E. Hotchner",
       "rating": 3,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/629103-M.jpg"
     },
     {
       "olid": "manual:kitchen-confidential",
       "title": "Kitchen Confidential",
       "author": "Anthony Bourdain",
       "rating": 4,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/843879-M.jpg"
     },
     {
       "olid": "manual:the-fountainhead",
       "title": "The Fountainhead",
       "author": "Ayn Rand",
       "rating": 5,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/6767765-M.jpg"
     },
     {
       "olid": "manual:permanent-record",
       "title": "Permanent Record",
       "author": "Edward Snowden",
       "rating": 3,
-      "yearRead": "2022"
+      "yearRead": "2022",
+      "cover": "https://covers.openlibrary.org/b/id/8751316-M.jpg"
     },
     {
       "olid": "manual:talking-to-strangers",
       "title": "Talking to Strangers",
       "author": "Malcolm Gladwell",
       "rating": 3,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/8779682-M.jpg"
     },
     {
       "olid": "manual:can't-hurt-me",
       "title": "Can't Hurt Me",
       "author": "David Goggins",
       "rating": 5,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/8305903-M.jpg"
     },
     {
       "olid": "manual:12-rules-for-life",
       "title": "12 Rules for Life",
       "author": "Jordan Peterson",
       "rating": 3,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/8131760-M.jpg"
     },
     {
       "olid": "manual:extreme-ownership",
       "title": "Extreme Ownership",
       "author": "Jocko Willink, Leif Babin",
       "rating": 3,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/12835042-M.jpg"
     },
     {
       "olid": "manual:the-practicing-stoic",
       "title": "The Practicing Stoic",
       "author": "Ward Farnsworth",
       "rating": 5,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/13007005-M.jpg"
     },
     {
       "olid": "manual:the-elephant-in-the-brain",
       "title": "The Elephant in the Brain",
       "author": "Kevin Simler, Robin Hanson",
       "rating": 4,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/9081429-M.jpg"
     },
     {
       "olid": "manual:if-i-understood-you-would-i-have-this-look-on-my-face",
       "title": "If I Understood You Would I Have This Look on My Face?",
       "author": "Alan Alda",
       "rating": 3,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/13178699-M.jpg"
     },
     {
       "olid": "manual:black-flags-blue-waters",
       "title": "Black Flags, Blue Waters",
       "author": "Eric Jay Dolin",
       "rating": 3,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/13770344-M.jpg"
     },
     {
       "olid": "manual:the-poet-x",
       "title": "The Poet X",
       "author": "Elizabeth Acevedo",
       "rating": 3,
-      "yearRead": "2021"
+      "yearRead": "2021",
+      "cover": "https://covers.openlibrary.org/b/id/9275726-M.jpg"
     },
     {
       "olid": "manual:darkness-at-noon",
       "title": "Darkness at Noon",
       "author": "Arthur Koestler",
       "rating": 4,
-      "yearRead": "2020"
+      "yearRead": "2020",
+      "cover": "https://covers.openlibrary.org/b/id/368797-M.jpg"
     },
     {
       "olid": "manual:the-unbearable-lightness-of-being",
       "title": "The Unbearable Lightness of Being",
       "author": "Milan Kundera",
       "rating": 3,
-      "yearRead": "2020"
+      "yearRead": "2020",
+      "cover": "https://covers.openlibrary.org/b/id/967823-M.jpg"
     },
     {
       "olid": "manual:the-power-of-now",
       "title": "The Power of Now",
       "author": "Eckhart Tolle",
       "rating": 5,
-      "yearRead": "2020"
+      "yearRead": "2020",
+      "cover": "https://covers.openlibrary.org/b/id/551262-M.jpg"
     },
     {
       "olid": "manual:a-new-earth",
       "title": "A New Earth",
       "author": "Eckhart Tolle",
       "rating": 3,
-      "yearRead": "2020"
+      "yearRead": "2020",
+      "cover": "https://covers.openlibrary.org/b/id/10858608-M.jpg"
     },
     {
       "olid": "manual:how-to-be-an-anti-racist",
       "title": "How to be an Anti-Racist",
       "author": "Ibram X. Kendi",
       "rating": 3,
-      "yearRead": "2020"
+      "yearRead": "2020",
+      "cover": "https://covers.openlibrary.org/b/id/12355529-M.jpg"
     },
     {
       "olid": "manual:astrophysics-for-people-in-a-hurry",
       "title": "Astrophysics for People in a Hurry",
       "author": "Neil deGrasse Tyson",
       "rating": 3,
-      "yearRead": "2020"
+      "yearRead": "2020",
+      "cover": "https://covers.openlibrary.org/b/id/7984709-M.jpg"
     },
     {
       "olid": "manual:to-kill-a-mockingbird",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/12784310-M.jpg"
     },
     {
       "olid": "manual:romeo-and-juliet",
       "title": "Romeo and Juliet",
       "author": "William Shakespeare",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/12986375-M.jpg"
     },
     {
       "olid": "manual:the-great-gatsby",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8432032-M.jpg"
     },
     {
       "olid": "manual:lord-of-the-flies",
       "title": "Lord of the Flies",
       "author": "William Golding",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8684447-M.jpg"
     },
     {
       "olid": "manual:animal-farm",
       "title": "Animal Farm",
       "author": "George Orwell",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/11261770-M.jpg"
     },
     {
       "olid": "manual:macbeth",
       "title": "Macbeth",
       "author": "William Shakespeare",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/872432-M.jpg"
     },
     {
       "olid": "manual:of-mice-and-men",
       "title": "Of Mice and Men",
       "author": "John Steinbeck",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/14319003-M.jpg"
     },
     {
       "olid": "manual:hamlet",
       "title": "Hamlet",
       "author": "William Shakespeare",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8281954-M.jpg"
     },
     {
       "olid": "manual:the-catcher-in-the-rye",
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/10737898-M.jpg"
     },
     {
       "olid": "manual:the-scarlet-letter",
       "title": "The Scarlet Letter",
       "author": "Nathaniel Hawthorne",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/6603956-M.jpg"
     },
     {
       "olid": "manual:1984",
       "title": "1984",
       "author": "George Orwell",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/9267242-M.jpg"
     },
     {
       "olid": "manual:the-diary-of-anne-frank",
       "title": "The Diary of Anne Frank",
       "author": "Anne Frank",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8584021-M.jpg"
     },
     {
       "olid": "manual:the-odyssey",
       "title": "The Odyssey",
       "author": "Homer",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/9045853-M.jpg"
     },
     {
       "olid": "manual:pride-and-prejudice",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/853465-M.jpg"
     },
     {
       "olid": "manual:fahrenheit-451",
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8225482-M.jpg"
     },
     {
       "olid": "manual:the-giver",
       "title": "The Giver",
       "author": "Lois Lowry",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8352502-M.jpg"
     },
     {
       "olid": "manual:the-crucible",
       "title": "The Crucible",
       "author": "Arthur Miller",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8478706-M.jpg"
     },
     {
       "olid": "manual:wuthering-heights",
       "title": "Wuthering Heights",
-      "author": "Emily Bront\u00eb",
+      "author": "Emily Brontë",
       "rating": 2,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/381410-M.jpg"
     },
     {
       "olid": "manual:frankenstein",
       "title": "Frankenstein",
       "author": "Mary Shelley",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/12356249-M.jpg"
     },
     {
       "olid": "manual:a-tale-of-two-cities",
       "title": "A Tale of Two Cities",
       "author": "Charles Dickens",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/8324308-M.jpg"
     },
     {
       "olid": "manual:the-hobbit",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/10762989-M.jpg"
     },
     {
       "olid": "manual:the-grapes-of-wrath",
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/12715902-M.jpg"
     },
     {
       "olid": "manual:crime-and-punishment",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/9411873-M.jpg"
     },
     {
       "olid": "manual:the-pearl",
       "title": "The Pearl",
       "author": "John Steinbeck",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/2523104-M.jpg"
     },
     {
       "olid": "manual:the-fellowship-of-the-ring",
       "title": "The Fellowship of the Ring",
       "author": "J.R.R. Tolkien",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/14625765-M.jpg"
     },
     {
       "olid": "manual:the-two-towers",
       "title": "The Two Towers",
       "author": "J.R.R. Tolkien",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/14627564-M.jpg"
     },
     {
       "olid": "manual:the-return-of-the-king",
       "title": "The Return of the King",
       "author": "J.R.R. Tolkien",
       "rating": 3,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/14627062-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-sorcerers-stone",
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/15155833-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-chamber-of-secrets",
       "title": "Harry Potter and the Chamber of Secrets",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/15155833-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-prisoner-of-azkaban",
       "title": "Harry Potter and the Prisoner of Azkaban",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/15155833-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-goblet-of-fire",
       "title": "Harry Potter and the Goblet of Fire",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/15155833-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-order-of-the-phoenix",
       "title": "Harry Potter and the Order of the Phoenix",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/15155833-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-half-blood-prince",
       "title": "Harry Potter and the Half-Blood Prince",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/10716273-M.jpg"
     },
     {
       "olid": "manual:harry-potter-and-the-deathly-hallows",
       "title": "Harry Potter and the Deathly Hallows",
       "author": "J.K. Rowling",
       "rating": 4,
-      "yearRead": "pre-2019"
+      "yearRead": "pre-2019",
+      "cover": "https://covers.openlibrary.org/b/id/15158660-M.jpg"
     }
   ],
   "wantToRead": []
