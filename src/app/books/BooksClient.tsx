@@ -137,11 +137,7 @@ export default function BooksClient({
 
   return (
     <div>
-      {/* View toggle */}
-      <div className="flex gap-2 mb-4 flex-wrap">
-        {viewBtn("read", "Read", readBooks.length)}
-        {viewBtn("wantToRead", "Want to Read", wantToReadBooks.length)}
-      </div>
+
 
       {/* Sort controls */}
       <div className="flex gap-2 mb-8 flex-wrap">
