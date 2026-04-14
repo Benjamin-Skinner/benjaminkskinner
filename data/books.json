@@ -1,6 +1,13 @@
 {
   "read": [
     {
+      "olid": "manual:nausea",
+      "title": "Nausea",
+      "author": "Jean-Paul Sartre",
+      "rating": 3,
+      "yearRead": "2025"
+    },
+    {
       "olid": "OL82592W",
       "title": "Meditations",
       "author": "Marcus Aurelius",
