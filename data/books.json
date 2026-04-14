@@ -6,91 +6,322 @@
       "author": "Marcus Aurelius",
       "rating": 5,
       "cover": "https://covers.openlibrary.org/b/olid/OL24347235M-M.jpg",
-      "yearRead": "2026"
+      "yearRead": "2023"
     },
     {
       "olid": "manual:a-moveable-feast",
       "title": "A Moveable Feast",
       "author": "Ernest Hemingway",
       "rating": 4,
-      "yearRead": "2026"
+      "yearRead": "2023"
     },
     {
       "olid": "manual:a-separate-peace",
       "title": "A Separate Peace",
       "author": "John Knowles",
       "rating": 2,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:flappers-and-philosophers",
       "title": "Flappers and Philosophers",
       "author": "F. Scott Fitzgerald",
       "rating": 3,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:lateral-thinking",
       "title": "Lateral Thinking",
       "author": "Edward de Bono",
       "rating": 5,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:norwegian-wood",
       "title": "Norwegian Wood",
       "author": "Haruki Murakami",
       "rating": 4,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:song-of-solomon",
       "title": "Song of Solomon",
       "author": "Toni Morrison",
       "rating": 5,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:the-chalice-and-the-blade",
       "title": "The Chalice and the Blade",
       "author": "Riane Eisler",
       "rating": 2,
-      "yearRead": "2026"
+      "yearRead": "2021"
     },
     {
       "olid": "manual:the-old-man-and-the-sea",
       "title": "The Old Man and the Sea",
       "author": "Ernest Hemingway",
       "rating": 4,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:the-sun-also-rises",
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
       "rating": 5,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:the-trial",
       "title": "The Trial",
       "author": "Franz Kafka",
       "rating": 4,
-      "yearRead": "2026"
+      "yearRead": "2024"
     },
     {
       "olid": "manual:this-side-of-paradise",
       "title": "This Side of Paradise",
       "author": "F. Scott Fitzgerald",
       "rating": 4,
-      "yearRead": "2026"
+      "yearRead": "2023"
     },
     {
       "olid": "manual:all-about-love",
       "title": "All About Love",
       "author": "bell hooks",
       "rating": 4,
-      "yearRead": "2026"
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:the-mom-test",
+      "title": "The Mom Test",
+      "author": "Rob Fitzpatrick",
+      "rating": 3,
+      "yearRead": "2024"
+    },
+    {
+      "olid": "manual:the-quiet-american",
+      "title": "The Quiet American",
+      "author": "Graham Greene",
+      "rating": 3,
+      "yearRead": "2024"
+    },
+    {
+      "olid": "manual:discomfortable",
+      "title": "Discomfortable",
+      "author": "A.J. Bond",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:non-violent-communication",
+      "title": "Non-Violent Communication",
+      "author": "Marshall Rosenberg",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:the-fall",
+      "title": "The Fall",
+      "author": "Albert Camus",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:how-to-think-like-a-roman-emperor",
+      "title": "How to Think Like a Roman Emperor",
+      "author": "Donald J. Robertson",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:i-hear-you",
+      "title": "I Hear You",
+      "author": "Michael Sorensen",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:the-quest-for-character",
+      "title": "The Quest for Character",
+      "author": "Massimo Pigliucci",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:rome's-last-citizen",
+      "title": "Rome's Last Citizen",
+      "author": "Rob Goodman, Jimmy Soni",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:think-talk-create",
+      "title": "Think, Talk, Create",
+      "author": "David Brendel, Ryan Stelzer",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:the-right-it",
+      "title": "The Right It",
+      "author": "Alberto Savoia",
+      "rating": 3,
+      "yearRead": "2023"
+    },
+    {
+      "olid": "manual:goodbye-things",
+      "title": "Goodbye, Things",
+      "author": "Fumio Sasaki",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:becoming-bulletproof",
+      "title": "Becoming Bulletproof",
+      "author": "Evy Poumpouras",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:the-book",
+      "title": "The Book",
+      "author": "Alan Watts",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:papa-hemingway",
+      "title": "Papa Hemingway",
+      "author": "A.E. Hotchner",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:kitchen-confidential",
+      "title": "Kitchen Confidential",
+      "author": "Anthony Bourdain",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:the-fountainhead",
+      "title": "The Fountainhead",
+      "author": "Ayn Rand",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:permanent-record",
+      "title": "Permanent Record",
+      "author": "Edward Snowden",
+      "rating": 3,
+      "yearRead": "2022"
+    },
+    {
+      "olid": "manual:talking-to-strangers",
+      "title": "Talking to Strangers",
+      "author": "Malcolm Gladwell",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:can't-hurt-me",
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:12-rules-for-life",
+      "title": "12 Rules for Life",
+      "author": "Jordan Peterson",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:extreme-ownership",
+      "title": "Extreme Ownership",
+      "author": "Jocko Willink, Leif Babin",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:the-practicing-stoic",
+      "title": "The Practicing Stoic",
+      "author": "Ward Farnsworth",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:the-elephant-in-the-brain",
+      "title": "The Elephant in the Brain",
+      "author": "Kevin Simler, Robin Hanson",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:if-i-understood-you-would-i-have-this-look-on-my-face",
+      "title": "If I Understood You Would I Have This Look on My Face?",
+      "author": "Alan Alda",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:black-flags-blue-waters",
+      "title": "Black Flags, Blue Waters",
+      "author": "Eric Jay Dolin",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:the-poet-x",
+      "title": "The Poet X",
+      "author": "Elizabeth Acevedo",
+      "rating": 3,
+      "yearRead": "2021"
+    },
+    {
+      "olid": "manual:darkness-at-noon",
+      "title": "Darkness at Noon",
+      "author": "Arthur Koestler",
+      "rating": 3,
+      "yearRead": "2020"
+    },
+    {
+      "olid": "manual:the-unbearable-lightness-of-being",
+      "title": "The Unbearable Lightness of Being",
+      "author": "Milan Kundera",
+      "rating": 3,
+      "yearRead": "2020"
+    },
+    {
+      "olid": "manual:the-power-of-now",
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "rating": 3,
+      "yearRead": "2020"
+    },
+    {
+      "olid": "manual:a-new-earth",
+      "title": "A New Earth",
+      "author": "Eckhart Tolle",
+      "rating": 3,
+      "yearRead": "2020"
+    },
+    {
+      "olid": "manual:how-to-be-an-anti-racist",
+      "title": "How to be an Anti-Racist",
+      "author": "Ibram X. Kendi",
+      "rating": 3,
+      "yearRead": "2020"
+    },
+    {
+      "olid": "manual:astrophysics-for-people-in-a-hurry",
+      "title": "Astrophysics for People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "rating": 3,
+      "yearRead": "2020"
     }
   ],
   "wantToRead": []
