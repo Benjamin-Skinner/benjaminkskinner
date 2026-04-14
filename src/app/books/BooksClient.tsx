@@ -42,7 +42,15 @@ export default function BooksClient({
       if (sort === "title") cmp = a.title.localeCompare(b.title);
       else if (sort === "author") cmp = a.author.localeCompare(b.author);
       else if (sort === "rating") cmp = (a.rating ?? 0) - (b.rating ?? 0);
-      else if (sort === "year") cmp = (a.yearRead ?? "").localeCompare(b.yearRead ?? "");
+      else if (sort === "year") {
+        // Handle "pre-YYYY" specially - treat as older than any numeric year
+        const parseYear = (y: string | null): number => {
+          if (!y) return 0;
+          if (y.startsWith("pre-")) return parseInt(y.slice(4)) - 1;
+          return parseInt(y) || 0;
+        };
+        cmp = parseYear(a.yearRead) - parseYear(b.yearRead);
+      }
       return order === "asc" ? cmp : -cmp;
     });
   }, [readBooks, sort, order]);

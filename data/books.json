@@ -327,151 +327,176 @@
       "olid": "manual:to-kill-a-mockingbird",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:romeo-and-juliet",
       "title": "Romeo and Juliet",
       "author": "William Shakespeare",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-great-gatsby",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:lord-of-the-flies",
       "title": "Lord of the Flies",
       "author": "William Golding",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:animal-farm",
       "title": "Animal Farm",
       "author": "George Orwell",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:macbeth",
       "title": "Macbeth",
       "author": "William Shakespeare",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:of-mice-and-men",
       "title": "Of Mice and Men",
       "author": "John Steinbeck",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:hamlet",
       "title": "Hamlet",
       "author": "William Shakespeare",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-catcher-in-the-rye",
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-scarlet-letter",
       "title": "The Scarlet Letter",
       "author": "Nathaniel Hawthorne",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:1984",
       "title": "1984",
       "author": "George Orwell",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-diary-of-anne-frank",
       "title": "The Diary of Anne Frank",
       "author": "Anne Frank",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-odyssey",
       "title": "The Odyssey",
       "author": "Homer",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:pride-and-prejudice",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:fahrenheit-451",
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-giver",
       "title": "The Giver",
       "author": "Lois Lowry",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-crucible",
       "title": "The Crucible",
       "author": "Arthur Miller",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:wuthering-heights",
       "title": "Wuthering Heights",
       "author": "Emily Bront\u00eb",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:frankenstein",
       "title": "Frankenstein",
       "author": "Mary Shelley",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:a-tale-of-two-cities",
       "title": "A Tale of Two Cities",
       "author": "Charles Dickens",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-hobbit",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-grapes-of-wrath",
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:beowulf",
       "title": "Beowulf",
       "author": "Unknown",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:crime-and-punishment",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     },
     {
       "olid": "manual:the-pearl",
       "title": "The Pearl",
       "author": "John Steinbeck",
-      "rating": 3
+      "rating": 3,
+      "yearRead": "pre-2019"
     }
   ],
   "wantToRead": []
