@@ -2,7 +2,7 @@
 title: My Reading List
 slug: reading-list
 date: 2024-12
-status: public
+status: private
 ---
 
 ## 2024
