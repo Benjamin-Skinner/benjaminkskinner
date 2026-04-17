@@ -124,8 +124,8 @@ export default function Home() {
         <p>
           These are my three favorite books. They all play a significant role in
           how I view the world.{" "}
-          <Link href="/posts/reading-list" className="link">
-            Click here for a list of of all the books I&apos;ve read recently.
+          <Link href="/books" className="link">
+            Check out my full book list.
           </Link>
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 mt-12 gap-4">
